@@ -18,6 +18,7 @@ app/
   preload/            Hợp đồng IPC phạm vi hẹp phơi bày window.pixelStudio (contextIsolation: true)
   renderer/           Workspace 3 cột xám than ấm & hổ phách (#181816 / #20201D / #121311 / #F1BE6B, Inter, lưới 4/8/12/16 px)
 domain/               Kiểu dữ liệu thuần, Zod schema, ParameterResolver, DAG validator, Unity math, Redactor
+mcp/                  MCP Server chuẩn stdio (57 tools, 12 resources, 5 prompts) để kết nối tự động hóa vào Codex
 unity-importer/       Gói UPM Editor & Runtime C# (ghim Unity 6000.6.7f1) kèm bộ kiểm thử EditMode
 examples/workshop/    Dự án mẫu nguyên gốc “Xưởng mộc” (mở thành bản sao làm việc độc lập)
 examples/workshop-export/  Gói xuất Unity mẫu đã kiểm chứng đầy đủ manifest & SHA-256

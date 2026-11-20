@@ -16,5 +16,5 @@
       "@main/*": ["app/main/*"]
     }
   },
-  "include": ["app/main/**/*", "app/preload/**/*", "domain/**/*", "scripts/**/*", "tests/**/*", "electron.vite.config.ts", "vitest.config.ts", "playwright.config.ts"]
+  "include": ["app/main/**/*", "app/preload/**/*", "domain/**/*", "mcp/**/*", "scripts/**/*", "tests/**/*", "electron.vite.config.ts", "vitest.config.ts", "playwright.config.ts"]
 }

@@ -5,6 +5,7 @@
 - `app/main/`: Quản lý cửa sổ Electron, SQLite WAL (`ProjectStore`), hàng đợi job, worker xử lý ảnh (`pngjs`), xuất gói Unity và mã hóa bí mật (`safeStorage`).
 - `app/preload/`: Chỉ phơi bày hợp đồng IPC phạm vi hẹp qua `window.pixelStudio`. Luôn giữ `contextIsolation: true` và `nodeIntegration: false`.
 - `app/renderer/`: Giao diện React + Zustand. Mọi thay đổi UI phải tương thích ngược với dữ liệu SQLite, phím tắt, thao tác vẽ, luồng AI, timeline và xuất Unity.
+- `mcp/`: MCP Server chuẩn stdio (`out/mcp/index.mjs`) bọc `StudioService` để kết nối vào Codex; tuyệt đối không ghi log ra `stdout` (chỉ dùng `stderr`).
 - `unity-importer/`: Gói UPM C# cho Unity (`6000.6.7f1`).
 
 ## 2. Quy chuẩn Giao diện (UI/UX & Theme)

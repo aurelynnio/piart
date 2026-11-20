@@ -34,6 +34,9 @@ jobs:
       - name: Unit tests
         run: npm run test:unit
 
+      - name: Build MCP server
+        run: npm run build:mcp
+
       - name: Integration tests
         run: npm run test:integration
 

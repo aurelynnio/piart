@@ -6,7 +6,10 @@
   "private": true,
   "scripts": {
     "dev": "electron-vite dev",
-    "build": "electron-vite build",
+    "build": "electron-vite build && node scripts/build-mcp.mjs",
+    "build:mcp": "node scripts/build-mcp.mjs",
+    "mcp": "tsx mcp/index.ts",
+    "mcp:start": "node out/mcp/index.mjs",
     "preview": "electron-vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
     "lint": "tsc --noEmit -p tsconfig.json",
@@ -14,6 +17,7 @@
     "test": "vitest run",
     "test:unit": "vitest run tests/unit",
     "test:integration": "vitest run tests/integration",
+    "test:mcp": "vitest run tests/integration/mcp.test.ts",
     "test:e2e": "playwright test --config=playwright.config.ts",
     "test:smoke:real-api": "tsx tests/smoke/real-api.smoke.ts",
     "test:perf": "vitest run tests/integration/performance.test.ts",
@@ -21,6 +25,7 @@
     "package:dir": "npm run build && electron-builder --win --x64 --dir"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
     "fflate": "^0.8.2",
     "lucide-react": "^0.475.0",
     "pngjs": "^7.0.0",
