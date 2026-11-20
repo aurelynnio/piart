@@ -13,6 +13,7 @@
     "preview": "electron-vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
     "lint": "tsc --noEmit -p tsconfig.json",
+    "generate:icon": "node scripts/generate-app-icon.mjs",
     "seed:workshop": "tsx scripts/seed-workshop.ts",
     "test": "vitest run",
     "test:unit": "vitest run tests/unit",

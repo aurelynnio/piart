@@ -5,7 +5,6 @@ import {
   Hammer,
   ArchiveRestore,
   KeyRound,
-  Grid3x3,
   WifiOff,
   ArrowRight
 } from 'lucide-react'
@@ -200,20 +199,17 @@ export const ProjectHub: React.FC = () => {
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-            <div
+            <img
+              src="./icon.png"
+              alt="AI Pixel Studio"
+              className="pixelated"
               style={{
-                width: 38,
-                height: 38,
-                borderRadius: 'var(--radius-md)',
-                background: 'var(--bg-panel)',
-                border: '1px solid var(--border-divider)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center'
+                width: 40,
+                height: 40,
+                display: 'block',
+                flexShrink: 0
               }}
-            >
-              <Grid3x3 size={18} strokeWidth={1.75} color="var(--accent)" />
-            </div>
+            />
             <div>
               <h1 style={{ margin: 0, fontSize: 19, fontWeight: 700, letterSpacing: '-0.015em' }}>
                 AI Pixel Studio

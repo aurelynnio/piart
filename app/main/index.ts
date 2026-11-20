@@ -19,6 +19,20 @@ function resolveSampleWorkshopDir(): string {
   return path.resolve(process.cwd(), 'examples', 'workshop')
 }
 
+function resolveAppIconPath(): string | undefined {
+  const iconFile = process.platform === 'win32' ? 'icon.ico' : 'icon.png'
+  const candidates = [
+    path.join(process.resourcesPath ?? '', 'build', iconFile),
+    path.resolve(__dirname, '../../build', iconFile),
+    path.resolve(process.cwd(), 'build', iconFile),
+    path.resolve(__dirname, '../renderer/icon.png')
+  ]
+  for (const c of candidates) {
+    if (c && fs.existsSync(c)) return c
+  }
+  return undefined
+}
+
 function createWindow(): void {
   const preloadPath = path.join(__dirname, '../preload/index.js')
   if (!fs.existsSync(preloadPath)) {
@@ -33,6 +47,7 @@ function createWindow(): void {
     show: false,
     backgroundColor: '#181816',
     title: 'AI Pixel Studio',
+    icon: resolveAppIconPath(),
     webPreferences: {
       preload: preloadPath,
       contextIsolation: true,

@@ -12,7 +12,6 @@ import {
   PanelLeft,
   PanelRight,
   PanelBottom,
-  LayoutGrid,
   ChevronRight,
   AlertCircle,
   AlertTriangle,
@@ -126,8 +125,14 @@ export const TopBar: React.FC = () => {
           onClick={handleCloseProject}
           title="Quay về Màn hình dự án"
           aria-label="Quay về Màn hình dự án"
+          style={{ padding: 2 }}
         >
-          <LayoutGrid size={15} strokeWidth={1.75} />
+          <img
+            src="./icon.png"
+            alt="AI Pixel Studio"
+            className="pixelated"
+            style={{ width: 22, height: 22, display: 'block' }}
+          />
         </button>
 
         <span

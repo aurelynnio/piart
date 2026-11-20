@@ -12,10 +12,13 @@ extraResources:
     to: examples/workshop
   - from: unity-importer
     to: unity-importer
+  - from: build
+    to: build
 asar: true
 asarUnpack:
   - "**/*.wasm"
 win:
+  icon: build/icon.ico
   target:
     - target: nsis
       arch:
