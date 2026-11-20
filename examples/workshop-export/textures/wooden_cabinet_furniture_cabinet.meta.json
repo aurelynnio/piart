@@ -1,0 +1,43 @@
+{
+  "stableId": "furniture_cabinet",
+  "revisionId": "rev_furniture_cabinet_approved",
+  "name": "Tủ gỗ xưởng mộc",
+  "slug": "wooden_cabinet",
+  "assetType": "furniture",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 64,
+    "h": 48
+  },
+  "pivotPx": {
+    "x": 32,
+    "y": 46
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.041667
+  },
+  "footprintTiles": {
+    "w": 2,
+    "h": 1
+  },
+  "collisionBox": null,
+  "nineSlice": null,
+  "unityNineSliceBorder": null,
+  "attachmentPoints": [
+    {
+      "id": "ap_handle",
+      "name": "door_handle",
+      "kind": "door_handle",
+      "x": 30,
+      "y": 28
+    }
+  ],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}

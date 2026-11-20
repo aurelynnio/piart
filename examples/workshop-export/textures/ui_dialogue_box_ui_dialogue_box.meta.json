@@ -1,0 +1,42 @@
+{
+  "stableId": "ui_dialogue_box",
+  "revisionId": "rev_ui_dialogue_box_approved",
+  "name": "Khung thoại 9-slice",
+  "slug": "ui_dialogue_box",
+  "assetType": "ui_element",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 48,
+    "h": 48
+  },
+  "pivotPx": {
+    "x": 24,
+    "y": 24
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "footprintTiles": null,
+  "collisionBox": null,
+  "nineSlice": {
+    "left": 8,
+    "top": 8,
+    "right": 8,
+    "bottom": 8
+  },
+  "unityNineSliceBorder": {
+    "x": 8,
+    "y": 8,
+    "z": 8,
+    "w": 8
+  },
+  "attachmentPoints": [],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}

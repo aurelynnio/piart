@@ -1,0 +1,194 @@
+{
+  "stableId": "clip_vfx_sawdust",
+  "assetId": "vfx_sawdust",
+  "assetSlug": "vfx_sawdust",
+  "name": "VFX Bụi mùn cưa (6 frame)",
+  "unityClipName": "vfx_sawdust_emit_down.anim",
+  "action": "emit",
+  "direction": "down",
+  "fps": 12,
+  "loopMode": "loop",
+  "playbackSpeed": 1,
+  "canvasPx": {
+    "w": 24,
+    "h": 24
+  },
+  "anchorPx": {
+    "x": 12,
+    "y": 12
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "pixelsPerUnit": 32,
+  "spriteSheetPath": "spritesheets/vfx_sawdust_emit_down_clip_vfx_sawdust.png",
+  "sheetSizePx": {
+    "w": 144,
+    "h": 24
+  },
+  "totalDurationMs": 480,
+  "totalDurationSec": 0.48,
+  "frames": [
+    {
+      "frameId": "frm_vfx_dust_0",
+      "slotIndex": 0,
+      "revisionId": "rev_vfx_sawdust_0",
+      "durationMs": 80,
+      "frameTexturePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_0.png",
+      "studioRect": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 24
+      },
+      "unityRect": {
+        "x": 0,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "frameId": "frm_vfx_dust_1",
+      "slotIndex": 1,
+      "revisionId": "rev_vfx_sawdust_1",
+      "durationMs": 80,
+      "frameTexturePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_1.png",
+      "studioRect": {
+        "x": 24,
+        "y": 0,
+        "w": 24,
+        "h": 24
+      },
+      "unityRect": {
+        "x": 24,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "frameId": "frm_vfx_dust_2",
+      "slotIndex": 2,
+      "revisionId": "rev_vfx_sawdust_2",
+      "durationMs": 80,
+      "frameTexturePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_2.png",
+      "studioRect": {
+        "x": 48,
+        "y": 0,
+        "w": 24,
+        "h": 24
+      },
+      "unityRect": {
+        "x": 48,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "frameId": "frm_vfx_dust_3",
+      "slotIndex": 3,
+      "revisionId": "rev_vfx_sawdust_3",
+      "durationMs": 80,
+      "frameTexturePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_3.png",
+      "studioRect": {
+        "x": 72,
+        "y": 0,
+        "w": 24,
+        "h": 24
+      },
+      "unityRect": {
+        "x": 72,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "frameId": "frm_vfx_dust_4",
+      "slotIndex": 4,
+      "revisionId": "rev_vfx_sawdust_4",
+      "durationMs": 80,
+      "frameTexturePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_4.png",
+      "studioRect": {
+        "x": 96,
+        "y": 0,
+        "w": 24,
+        "h": 24
+      },
+      "unityRect": {
+        "x": 96,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    {
+      "frameId": "frm_vfx_dust_5",
+      "slotIndex": 5,
+      "revisionId": "rev_vfx_sawdust_5",
+      "durationMs": 80,
+      "frameTexturePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_5.png",
+      "studioRect": {
+        "x": 120,
+        "y": 0,
+        "w": 24,
+        "h": 24
+      },
+      "unityRect": {
+        "x": 120,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    }
+  ],
+  "unityKeyframes": [
+    {
+      "timeSec": 0,
+      "frameId": "frm_vfx_dust_0",
+      "slotIndex": 0,
+      "blobHash": "dbeda53c1f3ca1c2e5c217c6730612e11fd68c66390fe8c12a53c22719e5f087"
+    },
+    {
+      "timeSec": 0.08,
+      "frameId": "frm_vfx_dust_1",
+      "slotIndex": 1,
+      "blobHash": "92f28e54b905262b8266f96744b5f4a523ac6d7ffbf31968a2fd1a18c33861fa"
+    },
+    {
+      "timeSec": 0.16,
+      "frameId": "frm_vfx_dust_2",
+      "slotIndex": 2,
+      "blobHash": "36d64d7c5778376a5497fed9e58df83bbddc07590492d1ce9a6695d57627a295"
+    },
+    {
+      "timeSec": 0.24,
+      "frameId": "frm_vfx_dust_3",
+      "slotIndex": 3,
+      "blobHash": "3030b7bf73c4aa124d8d853163eaf72f871074d544592d356ef5debd04d370cc"
+    },
+    {
+      "timeSec": 0.32,
+      "frameId": "frm_vfx_dust_4",
+      "slotIndex": 4,
+      "blobHash": "6768be487cea0d11ad746b6a708fac30e026ef58ed8b14fcf5d584e5d969a472"
+    },
+    {
+      "timeSec": 0.4,
+      "frameId": "frm_vfx_dust_5",
+      "slotIndex": 5,
+      "blobHash": "f41a1b08f230cbad58951a8b62f4af0b17f53cf57d793889a66f272045d085ee"
+    },
+    {
+      "timeSec": 0.48,
+      "frameId": "frm_vfx_dust_5",
+      "slotIndex": 5,
+      "blobHash": "f41a1b08f230cbad58951a8b62f4af0b17f53cf57d793889a66f272045d085ee",
+      "isTerminalHold": true
+    }
+  ],
+  "events": []
+}

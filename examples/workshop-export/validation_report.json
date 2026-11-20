@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "scopeKind": "project",
+  "rootIds": [],
+  "resolvedAssetIds": [
+    "character_carpenter",
+    "portrait_carpenter",
+    "outfit_apron",
+    "furniture_cabinet",
+    "furniture_table",
+    "furniture_chair",
+    "item_hammer",
+    "icon_hammer",
+    "asset_tileset_workshop",
+    "ui_dialogue_box",
+    "ui_btn_normal",
+    "ui_btn_pressed",
+    "ui_btn_disabled",
+    "asset_ui_screen_hud",
+    "vfx_sawdust",
+    "asset_dialogue_hammer",
+    "asset_quest_hammer",
+    "asset_table_items",
+    "asset_scene_workshop",
+    "asset_cutscene_intro"
+  ],
+  "resolvedClipIds": [
+    "clip_carpenter_walk_down",
+    "clip_carpenter_idle_down",
+    "clip_carpenter_walk_left",
+    "clip_carpenter_idle_left",
+    "clip_carpenter_walk_right",
+    "clip_carpenter_idle_right",
+    "clip_carpenter_walk_up",
+    "clip_carpenter_idle_up",
+    "clip_cabinet_open",
+    "clip_vfx_sawdust"
+  ],
+  "resolvedSceneIds": [
+    "scene_workshop"
+  ],
+  "resolvedTilesetIds": [
+    "tileset_workshop"
+  ],
+  "resolvedDialogueIds": [
+    "dialogue_carpenter_hammer"
+  ],
+  "resolvedQuestIds": [
+    "quest_deliver_hammer"
+  ],
+  "issues": [],
+  "errorCount": 0,
+  "warningCount": 0
+}

@@ -1,0 +1,41 @@
+{
+  "cutsceneId": "cutscene_workshop_intro",
+  "assetId": "asset_cutscene_intro",
+  "name": "Cutscene mở đầu Xưởng mộc",
+  "shots": [
+    {
+      "shotId": "shot_1",
+      "order": 0,
+      "title": "Cảnh 1 · Cửa xưởng mở ra",
+      "durationMs": 2200,
+      "sceneId": "scene_workshop",
+      "dialogueId": null,
+      "speakerAssetId": "character_carpenter",
+      "referencedAssetIds": [
+        "character_carpenter",
+        "furniture_cabinet"
+      ],
+      "dialogueText": "Ánh nắng sáng rọi vào xưởng mộc mùi gỗ sồi.",
+      "cameraNotes": "Fade-in toàn cảnh 10×8",
+      "transitionCue": "fade_in"
+    },
+    {
+      "shotId": "shot_2",
+      "order": 1,
+      "title": "Cảnh 2 · Thợ mộc nhờ tìm búa",
+      "durationMs": 2800,
+      "sceneId": "scene_workshop",
+      "dialogueId": "dialogue_carpenter_hammer",
+      "speakerAssetId": "character_carpenter",
+      "referencedAssetIds": [
+        "character_carpenter",
+        "item_hammer"
+      ],
+      "dialogueText": "Bạn có thấy cây búa của tôi ở đâu không?",
+      "cameraNotes": "Zoom nhẹ về phía Thợ mộc",
+      "transitionCue": "pan"
+    }
+  ],
+  "createdAt": "2026-11-20T07:46:29.562Z",
+  "updatedAt": "2026-11-20T07:46:29.562Z"
+}

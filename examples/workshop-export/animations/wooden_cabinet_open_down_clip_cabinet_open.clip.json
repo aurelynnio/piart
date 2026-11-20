@@ -1,0 +1,202 @@
+{
+  "stableId": "clip_cabinet_open",
+  "assetId": "furniture_cabinet",
+  "assetSlug": "wooden_cabinet",
+  "name": "Tủ gỗ — open (down)",
+  "unityClipName": "wooden_cabinet_open_down.anim",
+  "action": "open",
+  "direction": "down",
+  "fps": 10,
+  "loopMode": "once",
+  "playbackSpeed": 1,
+  "canvasPx": {
+    "w": 64,
+    "h": 48
+  },
+  "anchorPx": {
+    "x": 32,
+    "y": 46
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.041667
+  },
+  "pixelsPerUnit": 32,
+  "spriteSheetPath": "spritesheets/wooden_cabinet_open_down_clip_cabinet_open.png",
+  "sheetSizePx": {
+    "w": 384,
+    "h": 48
+  },
+  "totalDurationMs": 600,
+  "totalDurationSec": 0.6,
+  "frames": [
+    {
+      "frameId": "frm_cab_open_0",
+      "slotIndex": 0,
+      "revisionId": "rev_cab_open_0",
+      "durationMs": 100,
+      "frameTexturePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_0.png",
+      "studioRect": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_cab_open_1",
+      "slotIndex": 1,
+      "revisionId": "rev_cab_open_1",
+      "durationMs": 100,
+      "frameTexturePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_1.png",
+      "studioRect": {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 64,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_cab_open_2",
+      "slotIndex": 2,
+      "revisionId": "rev_cab_open_2",
+      "durationMs": 100,
+      "frameTexturePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_2.png",
+      "studioRect": {
+        "x": 128,
+        "y": 0,
+        "w": 64,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 128,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_cab_open_3",
+      "slotIndex": 3,
+      "revisionId": "rev_cab_open_3",
+      "durationMs": 100,
+      "frameTexturePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_3.png",
+      "studioRect": {
+        "x": 192,
+        "y": 0,
+        "w": 64,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 192,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_cab_open_4",
+      "slotIndex": 4,
+      "revisionId": "rev_cab_open_4",
+      "durationMs": 100,
+      "frameTexturePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_4.png",
+      "studioRect": {
+        "x": 256,
+        "y": 0,
+        "w": 64,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 256,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_cab_open_5",
+      "slotIndex": 5,
+      "revisionId": "rev_cab_open_5",
+      "durationMs": 100,
+      "frameTexturePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_5.png",
+      "studioRect": {
+        "x": 320,
+        "y": 0,
+        "w": 64,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 320,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    }
+  ],
+  "unityKeyframes": [
+    {
+      "timeSec": 0,
+      "frameId": "frm_cab_open_0",
+      "slotIndex": 0,
+      "blobHash": "cd7cdb6342219fea44bddba21e27801427110a4445b72fe3dd441a96d8d6921c"
+    },
+    {
+      "timeSec": 0.1,
+      "frameId": "frm_cab_open_1",
+      "slotIndex": 1,
+      "blobHash": "a78e024cd6a5225a75eb8a5f9c8bd0aac57427f567cc7262300c45d57e51e137"
+    },
+    {
+      "timeSec": 0.2,
+      "frameId": "frm_cab_open_2",
+      "slotIndex": 2,
+      "blobHash": "6c526d07ff3b011e0f7c6504388fb3681cf57e85f8d126061ff25947d89094a7"
+    },
+    {
+      "timeSec": 0.3,
+      "frameId": "frm_cab_open_3",
+      "slotIndex": 3,
+      "blobHash": "a0fa2af799504e91984ccf037b5862af3ba9ef548b141335d635ee998a647e49"
+    },
+    {
+      "timeSec": 0.4,
+      "frameId": "frm_cab_open_4",
+      "slotIndex": 4,
+      "blobHash": "d2949eca282f3007aecdd28a565474bc9d33cf6887a9fe78dc49e0d4a74f598b"
+    },
+    {
+      "timeSec": 0.5,
+      "frameId": "frm_cab_open_5",
+      "slotIndex": 5,
+      "blobHash": "da351fd8312431ecbdc498829487f24e3b9a7f0574214b5ac75ca9095c40824d"
+    },
+    {
+      "timeSec": 0.6,
+      "frameId": "frm_cab_open_5",
+      "slotIndex": 5,
+      "blobHash": "da351fd8312431ecbdc498829487f24e3b9a7f0574214b5ac75ca9095c40824d",
+      "isTerminalHold": true
+    }
+  ],
+  "events": [
+    {
+      "eventId": "evt_cab_open",
+      "name": "sfx_cabinet_open",
+      "frameId": "frm_cab_open_5",
+      "timeMs": 500,
+      "payload": {}
+    }
+  ]
+}

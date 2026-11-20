@@ -1,0 +1,29 @@
+appId: com.aipixelstudio.desktop
+productName: AI Pixel Studio
+directories:
+  output: release
+  buildResources: build
+files:
+  - out/**/*
+  - package.json
+  - node_modules/**/*
+extraResources:
+  - from: examples/workshop
+    to: examples/workshop
+  - from: unity-importer
+    to: unity-importer
+asar: true
+asarUnpack:
+  - "**/*.wasm"
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  artifactName: "${productName}-Setup-${version}-x64.${ext}"
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: AI Pixel Studio

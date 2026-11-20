@@ -1,0 +1,1014 @@
+{
+  "manifestSchemaVersion": 1,
+  "minImporterVersion": "1.0.0",
+  "pinnedUnityVersion": "6000.6.7f1",
+  "exportRunId": "exp_a9fc4039df63",
+  "exportedAt": "2026-11-20T07:46:29.721Z",
+  "projectId": "proj_86361dfbe1ff",
+  "projectName": "Xưởng mộc — Dự án mẫu",
+  "pixelsPerUnit": 32,
+  "tileSizePx": 32,
+  "conventions": {
+    "imageOrigin": "top-left",
+    "unitySpriteRectOrigin": "bottom-left",
+    "unityPivotOrigin": "bottom-left-normalized",
+    "tilemapMapping": "y_flipped_rows_minus_1_minus_row",
+    "durationUnit": "milliseconds",
+    "textureFilter": "Point",
+    "textureCompression": "Uncompressed"
+  },
+  "scope": {
+    "kind": "project",
+    "rootIds": []
+  },
+  "entries": [
+    {
+      "stableId": "character_carpenter",
+      "revisionId": "rev_character_carpenter_approved",
+      "assetType": "character",
+      "name": "Thợ mộc",
+      "relativePath": "textures/carpenter_character_carpenter.png",
+      "metadataPath": "textures/carpenter_character_carpenter.meta.json",
+      "sha256": "457f84ceb67079182c98c593ddb302fa888e7b1f5ce5ee476926009a4fe757bf",
+      "byteSize": 504,
+      "dependencies": []
+    },
+    {
+      "stableId": "portrait_carpenter",
+      "revisionId": "rev_portrait_carpenter_approved",
+      "assetType": "portrait",
+      "name": "Chân dung Thợ mộc",
+      "relativePath": "textures/carpenter_portrait_portrait_carpenter.png",
+      "metadataPath": "textures/carpenter_portrait_portrait_carpenter.meta.json",
+      "sha256": "e8ff7e967a76dc18eeb3a39087abcaea0594dd83333a4948aeade3426b23cb7e",
+      "byteSize": 344,
+      "dependencies": []
+    },
+    {
+      "stableId": "outfit_apron",
+      "revisionId": "rev_outfit_apron_approved",
+      "assetType": "outfit",
+      "name": "Tạp dề thợ mộc",
+      "relativePath": "textures/carpenter_apron_outfit_apron.png",
+      "metadataPath": "textures/carpenter_apron_outfit_apron.meta.json",
+      "sha256": "71115933fb7c6cef93adc2c14ebda13c343b19fb1ba5f191fea1de530db3af94",
+      "byteSize": 186,
+      "dependencies": []
+    },
+    {
+      "stableId": "furniture_cabinet",
+      "revisionId": "rev_furniture_cabinet_approved",
+      "assetType": "furniture",
+      "name": "Tủ gỗ xưởng mộc",
+      "relativePath": "textures/wooden_cabinet_furniture_cabinet.png",
+      "metadataPath": "textures/wooden_cabinet_furniture_cabinet.meta.json",
+      "sha256": "cd7cdb6342219fea44bddba21e27801427110a4445b72fe3dd441a96d8d6921c",
+      "byteSize": 262,
+      "dependencies": []
+    },
+    {
+      "stableId": "furniture_table",
+      "revisionId": "rev_furniture_table_approved",
+      "assetType": "furniture",
+      "name": "Bàn thợ mộc",
+      "relativePath": "textures/workbench_table_furniture_table.png",
+      "metadataPath": "textures/workbench_table_furniture_table.meta.json",
+      "sha256": "7dad3dc91da5078ad863fc1c28e5d99e4f15616b68a088280d910abf37614395",
+      "byteSize": 258,
+      "dependencies": []
+    },
+    {
+      "stableId": "furniture_chair",
+      "revisionId": "rev_furniture_chair_approved",
+      "assetType": "furniture",
+      "name": "Ghế gỗ",
+      "relativePath": "textures/wooden_chair_furniture_chair.png",
+      "metadataPath": "textures/wooden_chair_furniture_chair.meta.json",
+      "sha256": "00494269459b8da8384101497a04c2fa5f9b5c1a5536384709c1a149a0862033",
+      "byteSize": 236,
+      "dependencies": []
+    },
+    {
+      "stableId": "item_hammer",
+      "revisionId": "rev_item_hammer_approved",
+      "assetType": "item",
+      "name": "Búa thợ mộc",
+      "relativePath": "textures/carpenter_hammer_item_hammer.png",
+      "metadataPath": "textures/carpenter_hammer_item_hammer.meta.json",
+      "sha256": "09e2d5faf1167c4edec05ac247c75daf2f50ff4be673401dc14e019edd7a803f",
+      "byteSize": 343,
+      "dependencies": []
+    },
+    {
+      "stableId": "icon_hammer",
+      "revisionId": "rev_icon_hammer_approved",
+      "assetType": "icon",
+      "name": "Icon Búa (Túi đồ)",
+      "relativePath": "textures/hammer_icon_icon_hammer.png",
+      "metadataPath": "textures/hammer_icon_icon_hammer.meta.json",
+      "sha256": "990d3147d48d81f4ecdf2fbe8638ae797f67af594ab0e29e87290325ca4067f3",
+      "byteSize": 230,
+      "dependencies": []
+    },
+    {
+      "stableId": "ui_dialogue_box",
+      "revisionId": "rev_ui_dialogue_box_approved",
+      "assetType": "ui_element",
+      "name": "Khung thoại 9-slice",
+      "relativePath": "textures/ui_dialogue_box_ui_dialogue_box.png",
+      "metadataPath": "textures/ui_dialogue_box_ui_dialogue_box.meta.json",
+      "sha256": "00fa88eaef486df11d2143fc1fb5cc8de934d6090dd9bc837e7f52c5459f53a0",
+      "byteSize": 224,
+      "dependencies": []
+    },
+    {
+      "stableId": "ui_btn_normal",
+      "revisionId": "rev_ui_btn_normal_approved",
+      "assetType": "ui_element",
+      "name": "Nút UI (Bình thường)",
+      "relativePath": "textures/ui_btn_normal_ui_btn_normal.png",
+      "metadataPath": "textures/ui_btn_normal_ui_btn_normal.meta.json",
+      "sha256": "fe42db635f628e9f580639da461b3eac26f94487a779bf2dd7a03472735cfb4e",
+      "byteSize": 180,
+      "dependencies": []
+    },
+    {
+      "stableId": "ui_btn_pressed",
+      "revisionId": "rev_ui_btn_pressed_approved",
+      "assetType": "ui_element",
+      "name": "Nút UI (Nhấn)",
+      "relativePath": "textures/ui_btn_pressed_ui_btn_pressed.png",
+      "metadataPath": "textures/ui_btn_pressed_ui_btn_pressed.meta.json",
+      "sha256": "e648885e9aa82f20fdcf945ac32e08ede90be4682b860e7b9372bf6174a7e32c",
+      "byteSize": 155,
+      "dependencies": []
+    },
+    {
+      "stableId": "ui_btn_disabled",
+      "revisionId": "rev_ui_btn_disabled_approved",
+      "assetType": "ui_element",
+      "name": "Nút UI (Vô hiệu hóa)",
+      "relativePath": "textures/ui_btn_disabled_ui_btn_disabled.png",
+      "metadataPath": "textures/ui_btn_disabled_ui_btn_disabled.meta.json",
+      "sha256": "38a8b0de5b071463735ac165e3935b9c454d8e16e99e750000c2466d0eaffbc2",
+      "byteSize": 175,
+      "dependencies": []
+    },
+    {
+      "stableId": "vfx_sawdust",
+      "revisionId": "rev_vfx_sawdust_0",
+      "assetType": "vfx",
+      "name": "VFX Bụi mùn cưa",
+      "relativePath": "textures/vfx_sawdust_vfx_sawdust.png",
+      "metadataPath": "textures/vfx_sawdust_vfx_sawdust.meta.json",
+      "sha256": "dbeda53c1f3ca1c2e5c217c6730612e11fd68c66390fe8c12a53c22719e5f087",
+      "byteSize": 168,
+      "dependencies": []
+    },
+    {
+      "stableId": "frm_carp_walk_down_0",
+      "revisionId": "rev_carp_walk_down_0",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (down) #1",
+      "relativePath": "textures/frames/carpenter_walk_down_frm_carp_walk_down_0.png",
+      "metadataPath": null,
+      "sha256": "457f84ceb67079182c98c593ddb302fa888e7b1f5ce5ee476926009a4fe757bf",
+      "byteSize": 504,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_down_1",
+      "revisionId": "rev_carp_walk_down_1",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (down) #2",
+      "relativePath": "textures/frames/carpenter_walk_down_frm_carp_walk_down_1.png",
+      "metadataPath": null,
+      "sha256": "f598b8b0e047c2b49f93d4eb7d80b3ba6cf86a85c611ab5be3fdfefdab032d51",
+      "byteSize": 520,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_down_2",
+      "revisionId": "rev_carp_walk_down_2",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (down) #3",
+      "relativePath": "textures/frames/carpenter_walk_down_frm_carp_walk_down_2.png",
+      "metadataPath": null,
+      "sha256": "f598b8b0e047c2b49f93d4eb7d80b3ba6cf86a85c611ab5be3fdfefdab032d51",
+      "byteSize": 520,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_down_3",
+      "revisionId": "rev_carp_walk_down_3",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (down) #4",
+      "relativePath": "textures/frames/carpenter_walk_down_frm_carp_walk_down_3.png",
+      "metadataPath": null,
+      "sha256": "457f84ceb67079182c98c593ddb302fa888e7b1f5ce5ee476926009a4fe757bf",
+      "byteSize": 504,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_down_4",
+      "revisionId": "rev_carp_walk_down_4",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (down) #5",
+      "relativePath": "textures/frames/carpenter_walk_down_frm_carp_walk_down_4.png",
+      "metadataPath": null,
+      "sha256": "046895c26d4344ca4dcfc6b5cf492e6ad953c87d22c5806b11a2766f7217b2d4",
+      "byteSize": 522,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_down_5",
+      "revisionId": "rev_carp_walk_down_5",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (down) #6",
+      "relativePath": "textures/frames/carpenter_walk_down_frm_carp_walk_down_5.png",
+      "metadataPath": null,
+      "sha256": "046895c26d4344ca4dcfc6b5cf492e6ad953c87d22c5806b11a2766f7217b2d4",
+      "byteSize": 522,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "clip_carpenter_walk_down",
+      "revisionId": "rev_carp_walk_down_0",
+      "assetType": "clip",
+      "name": "Thợ mộc — walk (down)",
+      "relativePath": "animations/carpenter_walk_down_clip_carpenter_walk_down.clip.json",
+      "metadataPath": "spritesheets/carpenter_walk_down_clip_carpenter_walk_down.png",
+      "sha256": "78895f1affbb6fde6711a8d87ad291f5dcb90b529d6a4d2d2c60cf384705d80a",
+      "byteSize": 5043,
+      "dependencies": [
+        "character_carpenter",
+        "frm_carp_walk_down_0",
+        "frm_carp_walk_down_1",
+        "frm_carp_walk_down_2",
+        "frm_carp_walk_down_3",
+        "frm_carp_walk_down_4",
+        "frm_carp_walk_down_5"
+      ]
+    },
+    {
+      "stableId": "frm_carp_idle_down_0",
+      "revisionId": "rev_carp_idle_down_0",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — idle (down) #1",
+      "relativePath": "textures/frames/carpenter_idle_down_frm_carp_idle_down_0.png",
+      "metadataPath": null,
+      "sha256": "457f84ceb67079182c98c593ddb302fa888e7b1f5ce5ee476926009a4fe757bf",
+      "byteSize": 504,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_idle_down_1",
+      "revisionId": "rev_carp_idle_down_1",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — idle (down) #2",
+      "relativePath": "textures/frames/carpenter_idle_down_frm_carp_idle_down_1.png",
+      "metadataPath": null,
+      "sha256": "457f84ceb67079182c98c593ddb302fa888e7b1f5ce5ee476926009a4fe757bf",
+      "byteSize": 504,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "clip_carpenter_idle_down",
+      "revisionId": "rev_carp_idle_down_0",
+      "assetType": "clip",
+      "name": "Thợ mộc — idle (down)",
+      "relativePath": "animations/carpenter_idle_down_clip_carpenter_idle_down.clip.json",
+      "metadataPath": "spritesheets/carpenter_idle_down_clip_carpenter_idle_down.png",
+      "sha256": "72de39fe9793106594cf1bb6e6948dca864ea3cb761a52c8899bc9930a734858",
+      "byteSize": 2161,
+      "dependencies": [
+        "character_carpenter",
+        "frm_carp_idle_down_0",
+        "frm_carp_idle_down_1"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_left_0",
+      "revisionId": "rev_carp_walk_left_0",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (left) #1",
+      "relativePath": "textures/frames/carpenter_walk_left_frm_carp_walk_left_0.png",
+      "metadataPath": null,
+      "sha256": "3956b56d0dfbbaf86e1fcf1ef56fd3b39476db59c040fec96ac158ecc913deb1",
+      "byteSize": 566,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_left_1",
+      "revisionId": "rev_carp_walk_left_1",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (left) #2",
+      "relativePath": "textures/frames/carpenter_walk_left_frm_carp_walk_left_1.png",
+      "metadataPath": null,
+      "sha256": "584c234db1fc704b30caaeb8710e29822c81412c33d70b0a9bb3de4837761806",
+      "byteSize": 581,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_left_2",
+      "revisionId": "rev_carp_walk_left_2",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (left) #3",
+      "relativePath": "textures/frames/carpenter_walk_left_frm_carp_walk_left_2.png",
+      "metadataPath": null,
+      "sha256": "584c234db1fc704b30caaeb8710e29822c81412c33d70b0a9bb3de4837761806",
+      "byteSize": 581,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_left_3",
+      "revisionId": "rev_carp_walk_left_3",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (left) #4",
+      "relativePath": "textures/frames/carpenter_walk_left_frm_carp_walk_left_3.png",
+      "metadataPath": null,
+      "sha256": "3956b56d0dfbbaf86e1fcf1ef56fd3b39476db59c040fec96ac158ecc913deb1",
+      "byteSize": 566,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_left_4",
+      "revisionId": "rev_carp_walk_left_4",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (left) #5",
+      "relativePath": "textures/frames/carpenter_walk_left_frm_carp_walk_left_4.png",
+      "metadataPath": null,
+      "sha256": "d1b2aa82faed364f0519c49373930eba7ea89412844921bea158fd97ad70ca71",
+      "byteSize": 624,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_left_5",
+      "revisionId": "rev_carp_walk_left_5",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (left) #6",
+      "relativePath": "textures/frames/carpenter_walk_left_frm_carp_walk_left_5.png",
+      "metadataPath": null,
+      "sha256": "d1b2aa82faed364f0519c49373930eba7ea89412844921bea158fd97ad70ca71",
+      "byteSize": 624,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "clip_carpenter_walk_left",
+      "revisionId": "rev_carp_walk_left_0",
+      "assetType": "clip",
+      "name": "Thợ mộc — walk (left)",
+      "relativePath": "animations/carpenter_walk_left_clip_carpenter_walk_left.clip.json",
+      "metadataPath": "spritesheets/carpenter_walk_left_clip_carpenter_walk_left.png",
+      "sha256": "28286b61034d1fc208a57b23b01ef0fa53391f43ccb46e4e7ca4da29f275c490",
+      "byteSize": 5043,
+      "dependencies": [
+        "character_carpenter",
+        "frm_carp_walk_left_0",
+        "frm_carp_walk_left_1",
+        "frm_carp_walk_left_2",
+        "frm_carp_walk_left_3",
+        "frm_carp_walk_left_4",
+        "frm_carp_walk_left_5"
+      ]
+    },
+    {
+      "stableId": "frm_carp_idle_left_0",
+      "revisionId": "rev_carp_idle_left_0",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — idle (left) #1",
+      "relativePath": "textures/frames/carpenter_idle_left_frm_carp_idle_left_0.png",
+      "metadataPath": null,
+      "sha256": "3956b56d0dfbbaf86e1fcf1ef56fd3b39476db59c040fec96ac158ecc913deb1",
+      "byteSize": 566,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_idle_left_1",
+      "revisionId": "rev_carp_idle_left_1",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — idle (left) #2",
+      "relativePath": "textures/frames/carpenter_idle_left_frm_carp_idle_left_1.png",
+      "metadataPath": null,
+      "sha256": "3956b56d0dfbbaf86e1fcf1ef56fd3b39476db59c040fec96ac158ecc913deb1",
+      "byteSize": 566,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "clip_carpenter_idle_left",
+      "revisionId": "rev_carp_idle_left_0",
+      "assetType": "clip",
+      "name": "Thợ mộc — idle (left)",
+      "relativePath": "animations/carpenter_idle_left_clip_carpenter_idle_left.clip.json",
+      "metadataPath": "spritesheets/carpenter_idle_left_clip_carpenter_idle_left.png",
+      "sha256": "7fdc0ad323022f0551dc4f79d26cbe6890ff21d7e7bbe8c6cf41769d133fcc9e",
+      "byteSize": 2161,
+      "dependencies": [
+        "character_carpenter",
+        "frm_carp_idle_left_0",
+        "frm_carp_idle_left_1"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_right_0",
+      "revisionId": "rev_carp_walk_right_0",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (right) #1",
+      "relativePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_0.png",
+      "metadataPath": null,
+      "sha256": "ecbde170f76ce697dd931fd2cd3dfe528c72c0d9ca0fcc58697195e9a739b2bd",
+      "byteSize": 487,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_right_1",
+      "revisionId": "rev_carp_walk_right_1",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (right) #2",
+      "relativePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_1.png",
+      "metadataPath": null,
+      "sha256": "f80c48d80622da0a4f27ba59d6ff15ea6b91b7251e1a873aaf25206e90b784f6",
+      "byteSize": 505,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_right_2",
+      "revisionId": "rev_carp_walk_right_2",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (right) #3",
+      "relativePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_2.png",
+      "metadataPath": null,
+      "sha256": "f80c48d80622da0a4f27ba59d6ff15ea6b91b7251e1a873aaf25206e90b784f6",
+      "byteSize": 505,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_right_3",
+      "revisionId": "rev_carp_walk_right_3",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (right) #4",
+      "relativePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_3.png",
+      "metadataPath": null,
+      "sha256": "ecbde170f76ce697dd931fd2cd3dfe528c72c0d9ca0fcc58697195e9a739b2bd",
+      "byteSize": 487,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_right_4",
+      "revisionId": "rev_carp_walk_right_4",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (right) #5",
+      "relativePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_4.png",
+      "metadataPath": null,
+      "sha256": "eec6e9121953b959428eec34a037d09aef0ca9309ac1e0f8e9751cace2ad8c81",
+      "byteSize": 506,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_right_5",
+      "revisionId": "rev_carp_walk_right_5",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (right) #6",
+      "relativePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_5.png",
+      "metadataPath": null,
+      "sha256": "eec6e9121953b959428eec34a037d09aef0ca9309ac1e0f8e9751cace2ad8c81",
+      "byteSize": 506,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "clip_carpenter_walk_right",
+      "revisionId": "rev_carp_walk_right_0",
+      "assetType": "clip",
+      "name": "Thợ mộc — walk (right)",
+      "relativePath": "animations/carpenter_walk_right_clip_carpenter_walk_right.clip.json",
+      "metadataPath": "spritesheets/carpenter_walk_right_clip_carpenter_walk_right.png",
+      "sha256": "5308d55efebdea9af64e3db9a088bf2cd980eeb40bbbcecf57d1e8b07ae4c896",
+      "byteSize": 5084,
+      "dependencies": [
+        "character_carpenter",
+        "frm_carp_walk_right_0",
+        "frm_carp_walk_right_1",
+        "frm_carp_walk_right_2",
+        "frm_carp_walk_right_3",
+        "frm_carp_walk_right_4",
+        "frm_carp_walk_right_5"
+      ]
+    },
+    {
+      "stableId": "frm_carp_idle_right_0",
+      "revisionId": "rev_carp_idle_right_0",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — idle (right) #1",
+      "relativePath": "textures/frames/carpenter_idle_right_frm_carp_idle_right_0.png",
+      "metadataPath": null,
+      "sha256": "ecbde170f76ce697dd931fd2cd3dfe528c72c0d9ca0fcc58697195e9a739b2bd",
+      "byteSize": 487,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_idle_right_1",
+      "revisionId": "rev_carp_idle_right_1",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — idle (right) #2",
+      "relativePath": "textures/frames/carpenter_idle_right_frm_carp_idle_right_1.png",
+      "metadataPath": null,
+      "sha256": "ecbde170f76ce697dd931fd2cd3dfe528c72c0d9ca0fcc58697195e9a739b2bd",
+      "byteSize": 487,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "clip_carpenter_idle_right",
+      "revisionId": "rev_carp_idle_right_0",
+      "assetType": "clip",
+      "name": "Thợ mộc — idle (right)",
+      "relativePath": "animations/carpenter_idle_right_clip_carpenter_idle_right.clip.json",
+      "metadataPath": "spritesheets/carpenter_idle_right_clip_carpenter_idle_right.png",
+      "sha256": "1ac38f4c6d653a6db03422b5480925c7af9d6e0080a40afe3653f368d47a8aa8",
+      "byteSize": 2178,
+      "dependencies": [
+        "character_carpenter",
+        "frm_carp_idle_right_0",
+        "frm_carp_idle_right_1"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_up_0",
+      "revisionId": "rev_carp_walk_up_0",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (up) #1",
+      "relativePath": "textures/frames/carpenter_walk_up_frm_carp_walk_up_0.png",
+      "metadataPath": null,
+      "sha256": "0e4df403de20c8237adaadefb7b64138ecf6ad02599b76681879be81f344aa93",
+      "byteSize": 481,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_up_1",
+      "revisionId": "rev_carp_walk_up_1",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (up) #2",
+      "relativePath": "textures/frames/carpenter_walk_up_frm_carp_walk_up_1.png",
+      "metadataPath": null,
+      "sha256": "63b7d2b7b34dfafc373b5342177efdf7d9bb8d862fa9dbc07321bcd3517b8d93",
+      "byteSize": 499,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_up_2",
+      "revisionId": "rev_carp_walk_up_2",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (up) #3",
+      "relativePath": "textures/frames/carpenter_walk_up_frm_carp_walk_up_2.png",
+      "metadataPath": null,
+      "sha256": "63b7d2b7b34dfafc373b5342177efdf7d9bb8d862fa9dbc07321bcd3517b8d93",
+      "byteSize": 499,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_up_3",
+      "revisionId": "rev_carp_walk_up_3",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (up) #4",
+      "relativePath": "textures/frames/carpenter_walk_up_frm_carp_walk_up_3.png",
+      "metadataPath": null,
+      "sha256": "0e4df403de20c8237adaadefb7b64138ecf6ad02599b76681879be81f344aa93",
+      "byteSize": 481,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_up_4",
+      "revisionId": "rev_carp_walk_up_4",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (up) #5",
+      "relativePath": "textures/frames/carpenter_walk_up_frm_carp_walk_up_4.png",
+      "metadataPath": null,
+      "sha256": "5ebd3a92cc07e74a25d221de1be3d199cb93638be2b1dd93f53596cafe060505",
+      "byteSize": 502,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_walk_up_5",
+      "revisionId": "rev_carp_walk_up_5",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — walk (up) #6",
+      "relativePath": "textures/frames/carpenter_walk_up_frm_carp_walk_up_5.png",
+      "metadataPath": null,
+      "sha256": "5ebd3a92cc07e74a25d221de1be3d199cb93638be2b1dd93f53596cafe060505",
+      "byteSize": 502,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "clip_carpenter_walk_up",
+      "revisionId": "rev_carp_walk_up_0",
+      "assetType": "clip",
+      "name": "Thợ mộc — walk (up)",
+      "relativePath": "animations/carpenter_walk_up_clip_carpenter_walk_up.clip.json",
+      "metadataPath": "spritesheets/carpenter_walk_up_clip_carpenter_walk_up.png",
+      "sha256": "99875cd55750593324648f17bb287a8bcc88deb5273634d523e735dec3bb3859",
+      "byteSize": 4961,
+      "dependencies": [
+        "character_carpenter",
+        "frm_carp_walk_up_0",
+        "frm_carp_walk_up_1",
+        "frm_carp_walk_up_2",
+        "frm_carp_walk_up_3",
+        "frm_carp_walk_up_4",
+        "frm_carp_walk_up_5"
+      ]
+    },
+    {
+      "stableId": "frm_carp_idle_up_0",
+      "revisionId": "rev_carp_idle_up_0",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — idle (up) #1",
+      "relativePath": "textures/frames/carpenter_idle_up_frm_carp_idle_up_0.png",
+      "metadataPath": null,
+      "sha256": "0e4df403de20c8237adaadefb7b64138ecf6ad02599b76681879be81f344aa93",
+      "byteSize": 481,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "frm_carp_idle_up_1",
+      "revisionId": "rev_carp_idle_up_1",
+      "assetType": "clip_frame",
+      "name": "Thợ mộc — idle (up) #2",
+      "relativePath": "textures/frames/carpenter_idle_up_frm_carp_idle_up_1.png",
+      "metadataPath": null,
+      "sha256": "0e4df403de20c8237adaadefb7b64138ecf6ad02599b76681879be81f344aa93",
+      "byteSize": 481,
+      "dependencies": [
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "clip_carpenter_idle_up",
+      "revisionId": "rev_carp_idle_up_0",
+      "assetType": "clip",
+      "name": "Thợ mộc — idle (up)",
+      "relativePath": "animations/carpenter_idle_up_clip_carpenter_idle_up.clip.json",
+      "metadataPath": "spritesheets/carpenter_idle_up_clip_carpenter_idle_up.png",
+      "sha256": "268421fde0acd6cbd792f9036dd0de3e83521dcee70f85f6b444c530cf2e2676",
+      "byteSize": 2127,
+      "dependencies": [
+        "character_carpenter",
+        "frm_carp_idle_up_0",
+        "frm_carp_idle_up_1"
+      ]
+    },
+    {
+      "stableId": "frm_cab_open_0",
+      "revisionId": "rev_cab_open_0",
+      "assetType": "clip_frame",
+      "name": "Tủ gỗ — open (down) #1",
+      "relativePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_0.png",
+      "metadataPath": null,
+      "sha256": "cd7cdb6342219fea44bddba21e27801427110a4445b72fe3dd441a96d8d6921c",
+      "byteSize": 262,
+      "dependencies": [
+        "furniture_cabinet"
+      ]
+    },
+    {
+      "stableId": "frm_cab_open_1",
+      "revisionId": "rev_cab_open_1",
+      "assetType": "clip_frame",
+      "name": "Tủ gỗ — open (down) #2",
+      "relativePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_1.png",
+      "metadataPath": null,
+      "sha256": "a78e024cd6a5225a75eb8a5f9c8bd0aac57427f567cc7262300c45d57e51e137",
+      "byteSize": 306,
+      "dependencies": [
+        "furniture_cabinet"
+      ]
+    },
+    {
+      "stableId": "frm_cab_open_2",
+      "revisionId": "rev_cab_open_2",
+      "assetType": "clip_frame",
+      "name": "Tủ gỗ — open (down) #3",
+      "relativePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_2.png",
+      "metadataPath": null,
+      "sha256": "6c526d07ff3b011e0f7c6504388fb3681cf57e85f8d126061ff25947d89094a7",
+      "byteSize": 324,
+      "dependencies": [
+        "furniture_cabinet"
+      ]
+    },
+    {
+      "stableId": "frm_cab_open_3",
+      "revisionId": "rev_cab_open_3",
+      "assetType": "clip_frame",
+      "name": "Tủ gỗ — open (down) #4",
+      "relativePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_3.png",
+      "metadataPath": null,
+      "sha256": "a0fa2af799504e91984ccf037b5862af3ba9ef548b141335d635ee998a647e49",
+      "byteSize": 331,
+      "dependencies": [
+        "furniture_cabinet"
+      ]
+    },
+    {
+      "stableId": "frm_cab_open_4",
+      "revisionId": "rev_cab_open_4",
+      "assetType": "clip_frame",
+      "name": "Tủ gỗ — open (down) #5",
+      "relativePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_4.png",
+      "metadataPath": null,
+      "sha256": "d2949eca282f3007aecdd28a565474bc9d33cf6887a9fe78dc49e0d4a74f598b",
+      "byteSize": 322,
+      "dependencies": [
+        "furniture_cabinet"
+      ]
+    },
+    {
+      "stableId": "frm_cab_open_5",
+      "revisionId": "rev_cab_open_5",
+      "assetType": "clip_frame",
+      "name": "Tủ gỗ — open (down) #6",
+      "relativePath": "textures/frames/wooden_cabinet_open_down_frm_cab_open_5.png",
+      "metadataPath": null,
+      "sha256": "da351fd8312431ecbdc498829487f24e3b9a7f0574214b5ac75ca9095c40824d",
+      "byteSize": 323,
+      "dependencies": [
+        "furniture_cabinet"
+      ]
+    },
+    {
+      "stableId": "clip_cabinet_open",
+      "revisionId": "rev_cab_open_0",
+      "assetType": "clip",
+      "name": "Tủ gỗ — open (down)",
+      "relativePath": "animations/wooden_cabinet_open_down_clip_cabinet_open.clip.json",
+      "metadataPath": "spritesheets/wooden_cabinet_open_down_clip_cabinet_open.png",
+      "sha256": "3c18fea3ba8e46b5a73a004da8da01a2c040f91fdc19aca630081c3594af0a08",
+      "byteSize": 4681,
+      "dependencies": [
+        "furniture_cabinet",
+        "frm_cab_open_0",
+        "frm_cab_open_1",
+        "frm_cab_open_2",
+        "frm_cab_open_3",
+        "frm_cab_open_4",
+        "frm_cab_open_5"
+      ]
+    },
+    {
+      "stableId": "frm_vfx_dust_0",
+      "revisionId": "rev_vfx_sawdust_0",
+      "assetType": "clip_frame",
+      "name": "VFX Bụi mùn cưa (6 frame) #1",
+      "relativePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_0.png",
+      "metadataPath": null,
+      "sha256": "dbeda53c1f3ca1c2e5c217c6730612e11fd68c66390fe8c12a53c22719e5f087",
+      "byteSize": 168,
+      "dependencies": [
+        "vfx_sawdust"
+      ]
+    },
+    {
+      "stableId": "frm_vfx_dust_1",
+      "revisionId": "rev_vfx_sawdust_1",
+      "assetType": "clip_frame",
+      "name": "VFX Bụi mùn cưa (6 frame) #2",
+      "relativePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_1.png",
+      "metadataPath": null,
+      "sha256": "92f28e54b905262b8266f96744b5f4a523ac6d7ffbf31968a2fd1a18c33861fa",
+      "byteSize": 186,
+      "dependencies": [
+        "vfx_sawdust"
+      ]
+    },
+    {
+      "stableId": "frm_vfx_dust_2",
+      "revisionId": "rev_vfx_sawdust_2",
+      "assetType": "clip_frame",
+      "name": "VFX Bụi mùn cưa (6 frame) #3",
+      "relativePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_2.png",
+      "metadataPath": null,
+      "sha256": "36d64d7c5778376a5497fed9e58df83bbddc07590492d1ce9a6695d57627a295",
+      "byteSize": 163,
+      "dependencies": [
+        "vfx_sawdust"
+      ]
+    },
+    {
+      "stableId": "frm_vfx_dust_3",
+      "revisionId": "rev_vfx_sawdust_3",
+      "assetType": "clip_frame",
+      "name": "VFX Bụi mùn cưa (6 frame) #4",
+      "relativePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_3.png",
+      "metadataPath": null,
+      "sha256": "3030b7bf73c4aa124d8d853163eaf72f871074d544592d356ef5debd04d370cc",
+      "byteSize": 172,
+      "dependencies": [
+        "vfx_sawdust"
+      ]
+    },
+    {
+      "stableId": "frm_vfx_dust_4",
+      "revisionId": "rev_vfx_sawdust_4",
+      "assetType": "clip_frame",
+      "name": "VFX Bụi mùn cưa (6 frame) #5",
+      "relativePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_4.png",
+      "metadataPath": null,
+      "sha256": "6768be487cea0d11ad746b6a708fac30e026ef58ed8b14fcf5d584e5d969a472",
+      "byteSize": 134,
+      "dependencies": [
+        "vfx_sawdust"
+      ]
+    },
+    {
+      "stableId": "frm_vfx_dust_5",
+      "revisionId": "rev_vfx_sawdust_5",
+      "assetType": "clip_frame",
+      "name": "VFX Bụi mùn cưa (6 frame) #6",
+      "relativePath": "textures/frames/vfx_sawdust_emit_down_frm_vfx_dust_5.png",
+      "metadataPath": null,
+      "sha256": "f41a1b08f230cbad58951a8b62f4af0b17f53cf57d793889a66f272045d085ee",
+      "byteSize": 129,
+      "dependencies": [
+        "vfx_sawdust"
+      ]
+    },
+    {
+      "stableId": "clip_vfx_sawdust",
+      "revisionId": "rev_vfx_sawdust_0",
+      "assetType": "clip",
+      "name": "VFX Bụi mùn cưa (6 frame)",
+      "relativePath": "animations/vfx_sawdust_emit_down_clip_vfx_sawdust.clip.json",
+      "metadataPath": "spritesheets/vfx_sawdust_emit_down_clip_vfx_sawdust.png",
+      "sha256": "47e607b0f0ae1824fab320b3fbe313d8006d1ac84d41470891de72e63e5051a1",
+      "byteSize": 4499,
+      "dependencies": [
+        "vfx_sawdust",
+        "frm_vfx_dust_0",
+        "frm_vfx_dust_1",
+        "frm_vfx_dust_2",
+        "frm_vfx_dust_3",
+        "frm_vfx_dust_4",
+        "frm_vfx_dust_5"
+      ]
+    },
+    {
+      "stableId": "atlas_proj_86361dfbe1ff",
+      "revisionId": "exp_a9fc4039df63",
+      "assetType": "atlas",
+      "name": "Studio Texture Atlas",
+      "relativePath": "atlases/studio_atlas.png",
+      "metadataPath": "atlases/studio_atlas.atlas.json",
+      "sha256": "d62b9290414cae27167d15f4ff2728225c76c908cdb2b400894d06aa7439aed4",
+      "byteSize": 2035,
+      "dependencies": [
+        "character_carpenter",
+        "portrait_carpenter",
+        "outfit_apron",
+        "furniture_cabinet",
+        "furniture_table",
+        "furniture_chair",
+        "item_hammer",
+        "icon_hammer",
+        "ui_dialogue_box",
+        "ui_btn_normal",
+        "ui_btn_pressed",
+        "ui_btn_disabled",
+        "vfx_sawdust"
+      ]
+    },
+    {
+      "stableId": "tileset_workshop",
+      "revisionId": "2026-11-20T07:46:29.562Z",
+      "assetType": "tileset",
+      "name": "Tileset Xưởng mộc 32×32",
+      "relativePath": "tilesets/tileset_xuong_moc_32_32_tileset_workshop.tileset.json",
+      "metadataPath": "tilesets/tileset_xuong_moc_32_32_tileset_workshop.png",
+      "sha256": "1868077e51eaaa21944ae513cd1797054e0df1d8c22b03759c9fde15954cb6c0",
+      "byteSize": 2630,
+      "dependencies": []
+    },
+    {
+      "stableId": "scene_workshop",
+      "revisionId": "2026-11-20T07:46:29.562Z",
+      "assetType": "scene",
+      "name": "Xưởng mộc (10×8 ô)",
+      "relativePath": "scenes/xuong_moc_10_8_o_scene_workshop.scene.json",
+      "metadataPath": null,
+      "sha256": "09a5886a05fae7e6314426f995e9676cb7cccbca248b9fa4161d286e2849f220",
+      "byteSize": 20579,
+      "dependencies": [
+        "tileset_workshop",
+        "furniture_cabinet",
+        "furniture_table",
+        "furniture_chair",
+        "character_carpenter"
+      ]
+    },
+    {
+      "stableId": "ui_screen_workshop_hud",
+      "revisionId": "2026-11-20T07:46:29.562Z",
+      "assetType": "ui_screen",
+      "name": "Màn hình HUD Xưởng mộc",
+      "relativePath": "ui/man_hinh_hud_xuong_moc_ui_screen_workshop_hud.ui.json",
+      "metadataPath": null,
+      "sha256": "91d2ef0ce367e76da6726d5a874714460ae53134c3ac6f7b2689f0809331d515",
+      "byteSize": 1366,
+      "dependencies": []
+    },
+    {
+      "stableId": "vfx_cfg_sawdust",
+      "revisionId": "2026-11-20T07:46:29.562Z",
+      "assetType": "vfx",
+      "name": "Hiệu ứng mùn cưa trên bàn mộc",
+      "relativePath": "vfx/hieu_ung_mun_cua_tren_ban_moc_vfx_cfg_sawdust.vfx.json",
+      "metadataPath": null,
+      "sha256": "42cd04d3e1d836c7881e95d293def2ec68118622a3fa7452cbff7d7ff21e137e",
+      "byteSize": 424,
+      "dependencies": [
+        "clip_vfx_sawdust"
+      ]
+    },
+    {
+      "stableId": "cutscene_workshop_intro",
+      "revisionId": "2026-11-20T07:46:29.562Z",
+      "assetType": "cutscene",
+      "name": "Cutscene mở đầu Xưởng mộc",
+      "relativePath": "cutscenes/cutscene_mo_dau_xuong_moc_cutscene_workshop_intro.cutscene.json",
+      "metadataPath": null,
+      "sha256": "f0a66d97094cab436520a8b4018a74bd7e107fd9639c2fc39dbd59d21c95e8c2",
+      "byteSize": 1278,
+      "dependencies": []
+    },
+    {
+      "stableId": "gameplay_proj_86361dfbe1ff",
+      "revisionId": "exp_a9fc4039df63",
+      "assetType": "gameplay",
+      "name": "Gameplay Data (Dialogues, Quests, Flags, Tables)",
+      "relativePath": "gameplay/gameplay_data.json",
+      "metadataPath": null,
+      "sha256": "e7c75c52252d89735c7868287867e096169c2686a0ab2699d358c22d43823e90",
+      "byteSize": 6992,
+      "dependencies": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "stableId": "character_carpenter",
+  "revisionId": "rev_character_carpenter_approved",
+  "name": "Thợ mộc",
+  "slug": "carpenter",
+  "assetType": "character",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 32,
+    "h": 48
+  },
+  "pivotPx": {
+    "x": 16,
+    "y": 46
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.041667
+  },
+  "footprintTiles": null,
+  "collisionBox": null,
+  "nineSlice": null,
+  "unityNineSliceBorder": null,
+  "attachmentPoints": [
+    {
+      "id": "ap_hand",
+      "name": "hand_hold",
+      "kind": "hand_hold",
+      "x": 7,
+      "y": 26
+    }
+  ],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}

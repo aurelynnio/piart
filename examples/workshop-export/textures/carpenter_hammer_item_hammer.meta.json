@@ -1,0 +1,32 @@
+{
+  "stableId": "item_hammer",
+  "revisionId": "rev_item_hammer_approved",
+  "name": "Búa thợ mộc",
+  "slug": "carpenter_hammer",
+  "assetType": "item",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 32,
+    "h": 32
+  },
+  "pivotPx": {
+    "x": 16,
+    "y": 16
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "footprintTiles": null,
+  "collisionBox": null,
+  "nineSlice": null,
+  "unityNineSliceBorder": null,
+  "attachmentPoints": [],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}

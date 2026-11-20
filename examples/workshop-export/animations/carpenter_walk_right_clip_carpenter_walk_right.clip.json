@@ -1,0 +1,213 @@
+{
+  "stableId": "clip_carpenter_walk_right",
+  "assetId": "character_carpenter",
+  "assetSlug": "carpenter",
+  "name": "Thợ mộc — walk (right)",
+  "unityClipName": "carpenter_walk_right.anim",
+  "action": "walk",
+  "direction": "right",
+  "fps": 8,
+  "loopMode": "loop",
+  "playbackSpeed": 1,
+  "canvasPx": {
+    "w": 32,
+    "h": 48
+  },
+  "anchorPx": {
+    "x": 16,
+    "y": 46
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.041667
+  },
+  "pixelsPerUnit": 32,
+  "spriteSheetPath": "spritesheets/carpenter_walk_right_clip_carpenter_walk_right.png",
+  "sheetSizePx": {
+    "w": 192,
+    "h": 48
+  },
+  "totalDurationMs": 750,
+  "totalDurationSec": 0.75,
+  "frames": [
+    {
+      "frameId": "frm_carp_walk_right_0",
+      "slotIndex": 0,
+      "revisionId": "rev_carp_walk_right_0",
+      "durationMs": 125,
+      "frameTexturePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_0.png",
+      "studioRect": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_carp_walk_right_1",
+      "slotIndex": 1,
+      "revisionId": "rev_carp_walk_right_1",
+      "durationMs": 125,
+      "frameTexturePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_1.png",
+      "studioRect": {
+        "x": 32,
+        "y": 0,
+        "w": 32,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 32,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_carp_walk_right_2",
+      "slotIndex": 2,
+      "revisionId": "rev_carp_walk_right_2",
+      "durationMs": 125,
+      "frameTexturePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_2.png",
+      "studioRect": {
+        "x": 64,
+        "y": 0,
+        "w": 32,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 64,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_carp_walk_right_3",
+      "slotIndex": 3,
+      "revisionId": "rev_carp_walk_right_3",
+      "durationMs": 125,
+      "frameTexturePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_3.png",
+      "studioRect": {
+        "x": 96,
+        "y": 0,
+        "w": 32,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 96,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_carp_walk_right_4",
+      "slotIndex": 4,
+      "revisionId": "rev_carp_walk_right_4",
+      "durationMs": 125,
+      "frameTexturePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_4.png",
+      "studioRect": {
+        "x": 128,
+        "y": 0,
+        "w": 32,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 128,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_carp_walk_right_5",
+      "slotIndex": 5,
+      "revisionId": "rev_carp_walk_right_5",
+      "durationMs": 125,
+      "frameTexturePath": "textures/frames/carpenter_walk_right_frm_carp_walk_right_5.png",
+      "studioRect": {
+        "x": 160,
+        "y": 0,
+        "w": 32,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 160,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    }
+  ],
+  "unityKeyframes": [
+    {
+      "timeSec": 0,
+      "frameId": "frm_carp_walk_right_0",
+      "slotIndex": 0,
+      "blobHash": "ecbde170f76ce697dd931fd2cd3dfe528c72c0d9ca0fcc58697195e9a739b2bd"
+    },
+    {
+      "timeSec": 0.125,
+      "frameId": "frm_carp_walk_right_1",
+      "slotIndex": 1,
+      "blobHash": "f80c48d80622da0a4f27ba59d6ff15ea6b91b7251e1a873aaf25206e90b784f6"
+    },
+    {
+      "timeSec": 0.25,
+      "frameId": "frm_carp_walk_right_2",
+      "slotIndex": 2,
+      "blobHash": "f80c48d80622da0a4f27ba59d6ff15ea6b91b7251e1a873aaf25206e90b784f6"
+    },
+    {
+      "timeSec": 0.375,
+      "frameId": "frm_carp_walk_right_3",
+      "slotIndex": 3,
+      "blobHash": "ecbde170f76ce697dd931fd2cd3dfe528c72c0d9ca0fcc58697195e9a739b2bd"
+    },
+    {
+      "timeSec": 0.5,
+      "frameId": "frm_carp_walk_right_4",
+      "slotIndex": 4,
+      "blobHash": "eec6e9121953b959428eec34a037d09aef0ca9309ac1e0f8e9751cace2ad8c81"
+    },
+    {
+      "timeSec": 0.625,
+      "frameId": "frm_carp_walk_right_5",
+      "slotIndex": 5,
+      "blobHash": "eec6e9121953b959428eec34a037d09aef0ca9309ac1e0f8e9751cace2ad8c81"
+    },
+    {
+      "timeSec": 0.75,
+      "frameId": "frm_carp_walk_right_5",
+      "slotIndex": 5,
+      "blobHash": "eec6e9121953b959428eec34a037d09aef0ca9309ac1e0f8e9751cace2ad8c81",
+      "isTerminalHold": true
+    }
+  ],
+  "events": [
+    {
+      "eventId": "evt_step_l_right",
+      "name": "footstep_left",
+      "frameId": "frm_carp_walk_right_1",
+      "timeMs": 125,
+      "payload": {
+        "surface": "wood"
+      }
+    },
+    {
+      "eventId": "evt_step_r_right",
+      "name": "footstep_right",
+      "frameId": "frm_carp_walk_right_4",
+      "timeMs": 500,
+      "payload": {
+        "surface": "wood"
+      }
+    }
+  ]
+}

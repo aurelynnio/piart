@@ -1,0 +1,32 @@
+{
+  "stableId": "icon_hammer",
+  "revisionId": "rev_icon_hammer_approved",
+  "name": "Icon Búa (Túi đồ)",
+  "slug": "hammer_icon",
+  "assetType": "icon",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 16,
+    "h": 16
+  },
+  "pivotPx": {
+    "x": 8,
+    "y": 8
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "footprintTiles": null,
+  "collisionBox": null,
+  "nineSlice": null,
+  "unityNineSliceBorder": null,
+  "attachmentPoints": [],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}

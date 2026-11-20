@@ -1,0 +1,42 @@
+{
+  "stableId": "ui_btn_pressed",
+  "revisionId": "rev_ui_btn_pressed_approved",
+  "name": "Nút UI (Nhấn)",
+  "slug": "ui_btn_pressed",
+  "assetType": "ui_element",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 48,
+    "h": 20
+  },
+  "pivotPx": {
+    "x": 24,
+    "y": 10
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "footprintTiles": null,
+  "collisionBox": null,
+  "nineSlice": {
+    "left": 6,
+    "top": 6,
+    "right": 6,
+    "bottom": 6
+  },
+  "unityNineSliceBorder": {
+    "x": 6,
+    "y": 6,
+    "z": 6,
+    "w": 6
+  },
+  "attachmentPoints": [],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}

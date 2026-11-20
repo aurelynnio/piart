@@ -1,0 +1,114 @@
+{
+  "stableId": "tileset_workshop",
+  "assetId": "asset_tileset_workshop",
+  "name": "Tileset Xưởng mộc 32×32",
+  "tileSizePx": 32,
+  "paddingPx": 2,
+  "pixelsPerUnit": 32,
+  "texturePath": "tilesets/tileset_xuong_moc_32_32_tileset_workshop.png",
+  "textureSizePx": {
+    "w": 140,
+    "h": 36
+  },
+  "tiles": [
+    {
+      "tileId": "tile_floor_wood",
+      "name": "Sàn gỗ sồi",
+      "blobHash": "3bfbec225f791a4dbe6029d7f4720f2bf9cfec15f7c6cd3438084f487d1f97f7",
+      "terrainTag": "wood",
+      "walkable": true,
+      "collisionShape": "none",
+      "customCollisionRect": null,
+      "isOverlay": false,
+      "studioRect": {
+        "x": 2,
+        "y": 2,
+        "w": 32,
+        "h": 32
+      },
+      "unityRect": {
+        "x": 2,
+        "y": 2,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tileId": "tile_wall_wood",
+      "name": "Tường gỗ",
+      "blobHash": "e4e38bec7ad8f3a5ad4e95df7c8751277202cdeaca54eed5e2a64083158693e4",
+      "terrainTag": "wall",
+      "walkable": false,
+      "collisionShape": "full",
+      "customCollisionRect": null,
+      "isOverlay": false,
+      "studioRect": {
+        "x": 36,
+        "y": 2,
+        "w": 32,
+        "h": 32
+      },
+      "unityRect": {
+        "x": 36,
+        "y": 2,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tileId": "tile_dirt_path",
+      "name": "Đất lối vào",
+      "blobHash": "17577ed101052991323f762d358b5951258936c2da7dbaab3846f6db4a3b39ad",
+      "terrainTag": "dirt",
+      "walkable": true,
+      "collisionShape": "none",
+      "customCollisionRect": null,
+      "isOverlay": false,
+      "studioRect": {
+        "x": 70,
+        "y": 2,
+        "w": 32,
+        "h": 32
+      },
+      "unityRect": {
+        "x": 70,
+        "y": 2,
+        "width": 32,
+        "height": 32
+      }
+    },
+    {
+      "tileId": "tile_border_wall",
+      "name": "Viền giao tường",
+      "blobHash": "2d0b60877656dc37eee569feb4d1f6731e1c4e8db4e3d949f044ca1fea36f8af",
+      "terrainTag": "wood",
+      "walkable": true,
+      "collisionShape": "none",
+      "customCollisionRect": null,
+      "isOverlay": false,
+      "studioRect": {
+        "x": 104,
+        "y": 2,
+        "w": 32,
+        "h": 32
+      },
+      "unityRect": {
+        "x": 104,
+        "y": 2,
+        "width": 32,
+        "height": 32
+      }
+    }
+  ],
+  "autoTileRules": [
+    {
+      "ruleId": "rule_north_edge",
+      "name": "Sàn giáp tường phía bắc",
+      "mode": "4-bit",
+      "terrainTag": "wood",
+      "bitmask": 14,
+      "tileId": "tile_border_wall",
+      "priority": 10
+    }
+  ]
+}

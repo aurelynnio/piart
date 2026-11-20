@@ -1,0 +1,263 @@
+{
+  "stableId": "gameplay_proj_86361dfbe1ff",
+  "stateFlags": [
+    {
+      "flagId": "flg_hammer_done",
+      "key": "quest_hammer_done",
+      "type": "bool",
+      "defaultValue": false,
+      "description": "Hoàn thành nhiệm vụ giao búa cho thợ mộc"
+    },
+    {
+      "flagId": "flg_wood_rep",
+      "key": "carpenter_reputation",
+      "type": "int",
+      "defaultValue": 0,
+      "description": "Điểm thân thiện với thợ mộc"
+    }
+  ],
+  "dialogues": [
+    {
+      "dialogueId": "dialogue_carpenter_hammer",
+      "assetId": "asset_dialogue_hammer",
+      "name": "Hội thoại giao búa cho Thợ mộc",
+      "npcAssetId": "character_carpenter",
+      "startNodeId": "n_greet",
+      "nodes": [
+        {
+          "nodeId": "n_greet",
+          "kind": "dialogue",
+          "speakerAssetId": "character_carpenter",
+          "speakerName": "Thợ mộc",
+          "text": "Chào bạn! Tôi đang làm dở chiếc tủ gỗ mà lại để quên cây búa. Bạn có mang búa theo không?",
+          "condition": null,
+          "effects": [
+            {
+              "kind": "start_quest",
+              "key": "quest_deliver_hammer",
+              "value": true
+            }
+          ],
+          "position": {
+            "x": 40,
+            "y": 80
+          }
+        },
+        {
+          "nodeId": "n_no_hammer",
+          "kind": "dialogue",
+          "speakerAssetId": "character_carpenter",
+          "speakerName": "Thợ mộc",
+          "text": "Chưa có à? Không sao, hãy kiểm tra quanh xưởng rồi mang búa lại cho tôi nhé!",
+          "condition": null,
+          "effects": [],
+          "position": {
+            "x": 320,
+            "y": 20
+          }
+        },
+        {
+          "nodeId": "n_give_hammer",
+          "kind": "dialogue",
+          "speakerAssetId": "character_carpenter",
+          "speakerName": "Thợ mộc",
+          "text": "Đúng cây búa này rồi! Cảm ơn bạn nhiều, đây là phần thưởng gỗ và tiền công của bạn.",
+          "condition": null,
+          "effects": [
+            {
+              "kind": "take_item",
+              "key": "item_hammer",
+              "value": 1
+            },
+            {
+              "kind": "give_item",
+              "key": "gold_coin",
+              "value": 50
+            },
+            {
+              "kind": "set_flag",
+              "key": "quest_hammer_done",
+              "value": true
+            },
+            {
+              "kind": "complete_quest",
+              "key": "quest_deliver_hammer",
+              "value": true
+            }
+          ],
+          "position": {
+            "x": 320,
+            "y": 150
+          }
+        },
+        {
+          "nodeId": "n_end",
+          "kind": "end",
+          "speakerAssetId": null,
+          "speakerName": "",
+          "text": "",
+          "condition": null,
+          "effects": [],
+          "position": {
+            "x": 600,
+            "y": 85
+          }
+        }
+      ],
+      "edges": [
+        {
+          "edgeId": "e_has",
+          "fromNodeId": "n_greet",
+          "toNodeId": "n_give_hammer",
+          "label": "Giao cây búa",
+          "condition": {
+            "kind": "has_item",
+            "key": "item_hammer",
+            "value": 1
+          }
+        },
+        {
+          "edgeId": "e_missing",
+          "fromNodeId": "n_greet",
+          "toNodeId": "n_no_hammer",
+          "label": "Tôi chưa tìm thấy búa",
+          "condition": null
+        },
+        {
+          "edgeId": "e_end1",
+          "fromNodeId": "n_no_hammer",
+          "toNodeId": "n_end",
+          "label": "Rời đi",
+          "condition": null
+        },
+        {
+          "edgeId": "e_end2",
+          "fromNodeId": "n_give_hammer",
+          "toNodeId": "n_end",
+          "label": "Nhận thưởng",
+          "condition": null
+        }
+      ],
+      "createdAt": "2026-11-20T07:46:29.562Z",
+      "updatedAt": "2026-11-20T07:46:29.562Z"
+    }
+  ],
+  "quests": [
+    {
+      "questId": "quest_deliver_hammer",
+      "assetId": "asset_quest_hammer",
+      "name": "Giao búa cho Thợ mộc",
+      "description": "Tìm cây búa thợ mộc và giao lại cho NPC Thợ mộc trong xưởng.",
+      "giverNpcAssetId": "character_carpenter",
+      "prerequisiteQuestId": null,
+      "startConditions": [],
+      "objectives": [
+        {
+          "objectiveId": "obj_bring_hammer",
+          "description": "Sở hữu Búa thợ mộc và giao cho Thợ mộc",
+          "condition": {
+            "kind": "has_item",
+            "key": "item_hammer",
+            "value": 1
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "itemAssetId": "item_hammer",
+          "itemKey": "gold_coin",
+          "quantity": 50
+        }
+      ],
+      "completionFlagKey": "quest_hammer_done",
+      "completionEffects": [
+        {
+          "kind": "set_flag",
+          "key": "quest_hammer_done",
+          "value": true
+        },
+        {
+          "kind": "give_item",
+          "key": "gold_coin",
+          "value": 50
+        }
+      ],
+      "createdAt": "2026-11-20T07:46:29.562Z",
+      "updatedAt": "2026-11-20T07:46:29.562Z"
+    }
+  ],
+  "dataTables": [
+    {
+      "tableId": "table_workshop_items",
+      "assetId": "asset_table_items",
+      "name": "Bảng chỉ số vật phẩm Xưởng mộc",
+      "columns": [
+        {
+          "colId": "c_key",
+          "name": "item_key",
+          "type": "string",
+          "required": true
+        },
+        {
+          "colId": "c_name",
+          "name": "ten_vat_pham",
+          "type": "string",
+          "required": true
+        },
+        {
+          "colId": "c_price",
+          "name": "gia_ban",
+          "type": "int",
+          "required": true,
+          "min": 0,
+          "max": 10000
+        },
+        {
+          "colId": "c_dur",
+          "name": "do_ben",
+          "type": "int",
+          "required": true,
+          "min": 1,
+          "max": 100
+        },
+        {
+          "colId": "c_rarity",
+          "name": "do_hiem",
+          "type": "enum",
+          "required": true,
+          "enumValues": [
+            "thuong",
+            "tot",
+            "hiem"
+          ]
+        },
+        {
+          "colId": "c_asset",
+          "name": "asset_id",
+          "type": "asset_ref",
+          "required": false
+        }
+      ],
+      "rows": [
+        {
+          "item_key": "item_hammer",
+          "ten_vat_pham": "Búa thợ mộc",
+          "gia_ban": 120,
+          "do_ben": 80,
+          "do_hiem": "tot",
+          "asset_id": "item_hammer"
+        },
+        {
+          "item_key": "wooden_cabinet",
+          "ten_vat_pham": "Tủ gỗ 2 ô",
+          "gia_ban": 350,
+          "do_ben": 100,
+          "do_hiem": "hiem",
+          "asset_id": "furniture_cabinet"
+        }
+      ],
+      "createdAt": "2026-11-20T07:46:29.562Z",
+      "updatedAt": "2026-11-20T07:46:29.562Z"
+    }
+  ]
+}

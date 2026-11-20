@@ -1,0 +1,35 @@
+{
+  "stableId": "furniture_table",
+  "revisionId": "rev_furniture_table_approved",
+  "name": "Bàn thợ mộc",
+  "slug": "workbench_table",
+  "assetType": "furniture",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 64,
+    "h": 48
+  },
+  "pivotPx": {
+    "x": 32,
+    "y": 46
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.041667
+  },
+  "footprintTiles": {
+    "w": 2,
+    "h": 1
+  },
+  "collisionBox": null,
+  "nineSlice": null,
+  "unityNineSliceBorder": null,
+  "attachmentPoints": [],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}

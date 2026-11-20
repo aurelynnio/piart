@@ -1,0 +1,32 @@
+{
+  "stableId": "vfx_sawdust",
+  "revisionId": "rev_vfx_sawdust_0",
+  "name": "VFX Bụi mùn cưa",
+  "slug": "vfx_sawdust",
+  "assetType": "vfx",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 24,
+    "h": 24
+  },
+  "pivotPx": {
+    "x": 12,
+    "y": 12
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "footprintTiles": null,
+  "collisionBox": null,
+  "nineSlice": null,
+  "unityNineSliceBorder": null,
+  "attachmentPoints": [],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}

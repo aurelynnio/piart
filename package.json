@@ -1,0 +1,49 @@
+{
+  "name": "ai-pixel-studio",
+  "version": "1.0.0",
+  "description": "AI Pixel Studio — Ứng dụng Windows sản xuất tài nguyên game 2D pixel art bằng prompt kết hợp tùy chọn có cấu trúc và xuất sang Unity",
+  "main": "out/main/index.js",
+  "private": true,
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
+    "lint": "tsc --noEmit -p tsconfig.json",
+    "seed:workshop": "tsx scripts/seed-workshop.ts",
+    "test": "vitest run",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:e2e": "playwright test --config=playwright.config.ts",
+    "test:smoke:real-api": "tsx tests/smoke/real-api.smoke.ts",
+    "test:perf": "vitest run tests/integration/performance.test.ts",
+    "package:win": "npm run build && electron-builder --win --x64",
+    "package:dir": "npm run build && electron-builder --win --x64 --dir"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "lucide-react": "^0.475.0",
+    "pngjs": "^7.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sql.js": "^1.12.0",
+    "zod": "^3.24.2",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.13.0",
+    "@types/pngjs": "^6.0.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^35.1.5",
+    "electron-builder": "^26.0.12",
+    "electron-vite": "^3.1.0",
+    "playwright": "^1.52.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0",
+    "vitest": "^3.1.1"
+  }
+}

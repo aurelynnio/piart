@@ -1,0 +1,94 @@
+{
+  "stableId": "clip_carpenter_idle_left",
+  "assetId": "character_carpenter",
+  "assetSlug": "carpenter",
+  "name": "Thợ mộc — idle (left)",
+  "unityClipName": "carpenter_idle_left.anim",
+  "action": "idle",
+  "direction": "left",
+  "fps": 4,
+  "loopMode": "loop",
+  "playbackSpeed": 1,
+  "canvasPx": {
+    "w": 32,
+    "h": 48
+  },
+  "anchorPx": {
+    "x": 16,
+    "y": 46
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.041667
+  },
+  "pixelsPerUnit": 32,
+  "spriteSheetPath": "spritesheets/carpenter_idle_left_clip_carpenter_idle_left.png",
+  "sheetSizePx": {
+    "w": 64,
+    "h": 48
+  },
+  "totalDurationMs": 500,
+  "totalDurationSec": 0.5,
+  "frames": [
+    {
+      "frameId": "frm_carp_idle_left_0",
+      "slotIndex": 0,
+      "revisionId": "rev_carp_idle_left_0",
+      "durationMs": 250,
+      "frameTexturePath": "textures/frames/carpenter_idle_left_frm_carp_idle_left_0.png",
+      "studioRect": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    },
+    {
+      "frameId": "frm_carp_idle_left_1",
+      "slotIndex": 1,
+      "revisionId": "rev_carp_idle_left_1",
+      "durationMs": 250,
+      "frameTexturePath": "textures/frames/carpenter_idle_left_frm_carp_idle_left_1.png",
+      "studioRect": {
+        "x": 32,
+        "y": 0,
+        "w": 32,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 32,
+        "y": 0,
+        "width": 32,
+        "height": 48
+      }
+    }
+  ],
+  "unityKeyframes": [
+    {
+      "timeSec": 0,
+      "frameId": "frm_carp_idle_left_0",
+      "slotIndex": 0,
+      "blobHash": "3956b56d0dfbbaf86e1fcf1ef56fd3b39476db59c040fec96ac158ecc913deb1"
+    },
+    {
+      "timeSec": 0.25,
+      "frameId": "frm_carp_idle_left_1",
+      "slotIndex": 1,
+      "blobHash": "3956b56d0dfbbaf86e1fcf1ef56fd3b39476db59c040fec96ac158ecc913deb1"
+    },
+    {
+      "timeSec": 0.5,
+      "frameId": "frm_carp_idle_left_1",
+      "slotIndex": 1,
+      "blobHash": "3956b56d0dfbbaf86e1fcf1ef56fd3b39476db59c040fec96ac158ecc913deb1",
+      "isTerminalHold": true
+    }
+  ],
+  "events": []
+}

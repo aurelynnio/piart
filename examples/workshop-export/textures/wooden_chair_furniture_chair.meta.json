@@ -1,0 +1,35 @@
+{
+  "stableId": "furniture_chair",
+  "revisionId": "rev_furniture_chair_approved",
+  "name": "Ghế gỗ",
+  "slug": "wooden_chair",
+  "assetType": "furniture",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 32,
+    "h": 32
+  },
+  "pivotPx": {
+    "x": 16,
+    "y": 30
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.0625
+  },
+  "footprintTiles": {
+    "w": 1,
+    "h": 1
+  },
+  "collisionBox": null,
+  "nineSlice": null,
+  "unityNineSliceBorder": null,
+  "attachmentPoints": [],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}

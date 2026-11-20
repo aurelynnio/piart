@@ -1,0 +1,59 @@
+{
+  "screenId": "ui_screen_workshop_hud",
+  "assetId": "asset_ui_screen_hud",
+  "name": "Màn hình HUD Xưởng mộc",
+  "resolutionPx": {
+    "w": 480,
+    "h": 270
+  },
+  "elements": [
+    {
+      "elementId": "uie_dialogue",
+      "name": "Khung thoại chính",
+      "kind": "dialogue_box",
+      "x": 24,
+      "y": 186,
+      "w": 432,
+      "h": 72,
+      "anchor": "bottom-center",
+      "nineSlice": {
+        "left": 8,
+        "top": 8,
+        "right": 8,
+        "bottom": 8
+      },
+      "states": {
+        "normalAssetId": "ui_dialogue_box",
+        "pressedAssetId": null,
+        "disabledAssetId": null,
+        "hoverAssetId": null
+      },
+      "text": "Thợ mộc: Bạn đã tìm thấy cây búa giúp tôi chưa?"
+    },
+    {
+      "elementId": "uie_confirm_btn",
+      "name": "Nút Xác nhận",
+      "kind": "button",
+      "x": 368,
+      "y": 230,
+      "w": 76,
+      "h": 22,
+      "anchor": "bottom-right",
+      "nineSlice": {
+        "left": 6,
+        "top": 6,
+        "right": 6,
+        "bottom": 6
+      },
+      "states": {
+        "normalAssetId": "ui_btn_normal",
+        "pressedAssetId": "ui_btn_pressed",
+        "disabledAssetId": "ui_btn_disabled",
+        "hoverAssetId": null
+      },
+      "text": "Giao búa"
+    }
+  ],
+  "createdAt": "2026-11-20T07:46:29.562Z",
+  "updatedAt": "2026-11-20T07:46:29.562Z"
+}

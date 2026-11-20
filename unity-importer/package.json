@@ -1,0 +1,15 @@
+{
+  "name": "com.aipixelstudio.importer",
+  "version": "1.0.0",
+  "displayName": "AI Pixel Studio Importer",
+  "description": "Importer Editor và Runtime C# cho gói tài nguyên 2D pixel art xuất từ AI Pixel Studio (Sprites, AnimationClips, Tilemaps, Prefabs, Gameplay & Idempotent Re-import).",
+  "unity": "6000.6",
+  "unityRelease": "7f1",
+  "author": {
+    "name": "AI Pixel Studio"
+  },
+  "dependencies": {
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.2d.tilemap": "1.0.0"
+  }
+}

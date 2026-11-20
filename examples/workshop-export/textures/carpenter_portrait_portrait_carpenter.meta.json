@@ -1,0 +1,32 @@
+{
+  "stableId": "portrait_carpenter",
+  "revisionId": "rev_portrait_carpenter_approved",
+  "name": "Chân dung Thợ mộc",
+  "slug": "carpenter_portrait",
+  "assetType": "portrait",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 64,
+    "h": 64
+  },
+  "pivotPx": {
+    "x": 32,
+    "y": 32
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "footprintTiles": null,
+  "collisionBox": null,
+  "nineSlice": null,
+  "unityNineSliceBorder": null,
+  "attachmentPoints": [],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}

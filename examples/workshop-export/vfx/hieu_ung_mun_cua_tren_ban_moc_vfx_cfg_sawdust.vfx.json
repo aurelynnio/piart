@@ -1,0 +1,17 @@
+{
+  "vfxId": "vfx_cfg_sawdust",
+  "assetId": "vfx_sawdust",
+  "clipId": "clip_vfx_sawdust",
+  "name": "Hiệu ứng mùn cưa trên bàn mộc",
+  "emitterOffsetPx": {
+    "x": 0,
+    "y": -6
+  },
+  "previewTargetType": "asset",
+  "previewTargetId": "furniture_table",
+  "blendMode": "normal",
+  "playbackSpeed": 1,
+  "loopMode": "loop",
+  "createdAt": "2026-11-20T07:46:29.562Z",
+  "updatedAt": "2026-11-20T07:46:29.562Z"
+}

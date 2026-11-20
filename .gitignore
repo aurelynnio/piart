@@ -1,0 +1,12 @@
+node_modules/
+out/
+dist/
+release/
+test-results/
+playwright-report/
+.DS_Store
+*.log
+*.sqlite-wal
+*.sqlite-shm
+tmp/
+unity-test-project/

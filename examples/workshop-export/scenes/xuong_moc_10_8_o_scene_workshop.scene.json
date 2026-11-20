@@ -1,0 +1,1039 @@
+{
+  "stableId": "scene_workshop",
+  "assetId": "asset_scene_workshop",
+  "name": "Xưởng mộc (10×8 ô)",
+  "cols": 10,
+  "rows": 8,
+  "tileSizePx": 32,
+  "pixelsPerUnit": 32,
+  "tilesetId": "tileset_workshop",
+  "layers": [
+    {
+      "layerId": "ml_ground",
+      "name": "Nền (Ground)",
+      "kind": "ground",
+      "order": 0,
+      "visible": true,
+      "cells": [
+        {
+          "col": 0,
+          "row": 0,
+          "unityCell": {
+            "x": 0,
+            "y": 7,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 1,
+          "row": 0,
+          "unityCell": {
+            "x": 1,
+            "y": 7,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 2,
+          "row": 0,
+          "unityCell": {
+            "x": 2,
+            "y": 7,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 3,
+          "row": 0,
+          "unityCell": {
+            "x": 3,
+            "y": 7,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 4,
+          "row": 0,
+          "unityCell": {
+            "x": 4,
+            "y": 7,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 5,
+          "row": 0,
+          "unityCell": {
+            "x": 5,
+            "y": 7,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 6,
+          "row": 0,
+          "unityCell": {
+            "x": 6,
+            "y": 7,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 7,
+          "row": 0,
+          "unityCell": {
+            "x": 7,
+            "y": 7,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 8,
+          "row": 0,
+          "unityCell": {
+            "x": 8,
+            "y": 7,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 9,
+          "row": 0,
+          "unityCell": {
+            "x": 9,
+            "y": 7,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 0,
+          "row": 1,
+          "unityCell": {
+            "x": 0,
+            "y": 6,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 1,
+          "row": 1,
+          "unityCell": {
+            "x": 1,
+            "y": 6,
+            "z": 0
+          },
+          "tileId": "tile_border_wall"
+        },
+        {
+          "col": 2,
+          "row": 1,
+          "unityCell": {
+            "x": 2,
+            "y": 6,
+            "z": 0
+          },
+          "tileId": "tile_border_wall"
+        },
+        {
+          "col": 3,
+          "row": 1,
+          "unityCell": {
+            "x": 3,
+            "y": 6,
+            "z": 0
+          },
+          "tileId": "tile_border_wall"
+        },
+        {
+          "col": 4,
+          "row": 1,
+          "unityCell": {
+            "x": 4,
+            "y": 6,
+            "z": 0
+          },
+          "tileId": "tile_border_wall"
+        },
+        {
+          "col": 5,
+          "row": 1,
+          "unityCell": {
+            "x": 5,
+            "y": 6,
+            "z": 0
+          },
+          "tileId": "tile_border_wall"
+        },
+        {
+          "col": 6,
+          "row": 1,
+          "unityCell": {
+            "x": 6,
+            "y": 6,
+            "z": 0
+          },
+          "tileId": "tile_border_wall"
+        },
+        {
+          "col": 7,
+          "row": 1,
+          "unityCell": {
+            "x": 7,
+            "y": 6,
+            "z": 0
+          },
+          "tileId": "tile_border_wall"
+        },
+        {
+          "col": 8,
+          "row": 1,
+          "unityCell": {
+            "x": 8,
+            "y": 6,
+            "z": 0
+          },
+          "tileId": "tile_border_wall"
+        },
+        {
+          "col": 9,
+          "row": 1,
+          "unityCell": {
+            "x": 9,
+            "y": 6,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 0,
+          "row": 2,
+          "unityCell": {
+            "x": 0,
+            "y": 5,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 1,
+          "row": 2,
+          "unityCell": {
+            "x": 1,
+            "y": 5,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 2,
+          "row": 2,
+          "unityCell": {
+            "x": 2,
+            "y": 5,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 3,
+          "row": 2,
+          "unityCell": {
+            "x": 3,
+            "y": 5,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 4,
+          "row": 2,
+          "unityCell": {
+            "x": 4,
+            "y": 5,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 5,
+          "row": 2,
+          "unityCell": {
+            "x": 5,
+            "y": 5,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 6,
+          "row": 2,
+          "unityCell": {
+            "x": 6,
+            "y": 5,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 7,
+          "row": 2,
+          "unityCell": {
+            "x": 7,
+            "y": 5,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 8,
+          "row": 2,
+          "unityCell": {
+            "x": 8,
+            "y": 5,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 9,
+          "row": 2,
+          "unityCell": {
+            "x": 9,
+            "y": 5,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 0,
+          "row": 3,
+          "unityCell": {
+            "x": 0,
+            "y": 4,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 1,
+          "row": 3,
+          "unityCell": {
+            "x": 1,
+            "y": 4,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 2,
+          "row": 3,
+          "unityCell": {
+            "x": 2,
+            "y": 4,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 3,
+          "row": 3,
+          "unityCell": {
+            "x": 3,
+            "y": 4,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 4,
+          "row": 3,
+          "unityCell": {
+            "x": 4,
+            "y": 4,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 5,
+          "row": 3,
+          "unityCell": {
+            "x": 5,
+            "y": 4,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 6,
+          "row": 3,
+          "unityCell": {
+            "x": 6,
+            "y": 4,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 7,
+          "row": 3,
+          "unityCell": {
+            "x": 7,
+            "y": 4,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 8,
+          "row": 3,
+          "unityCell": {
+            "x": 8,
+            "y": 4,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 9,
+          "row": 3,
+          "unityCell": {
+            "x": 9,
+            "y": 4,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 0,
+          "row": 4,
+          "unityCell": {
+            "x": 0,
+            "y": 3,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 1,
+          "row": 4,
+          "unityCell": {
+            "x": 1,
+            "y": 3,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 2,
+          "row": 4,
+          "unityCell": {
+            "x": 2,
+            "y": 3,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 3,
+          "row": 4,
+          "unityCell": {
+            "x": 3,
+            "y": 3,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 4,
+          "row": 4,
+          "unityCell": {
+            "x": 4,
+            "y": 3,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 5,
+          "row": 4,
+          "unityCell": {
+            "x": 5,
+            "y": 3,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 6,
+          "row": 4,
+          "unityCell": {
+            "x": 6,
+            "y": 3,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 7,
+          "row": 4,
+          "unityCell": {
+            "x": 7,
+            "y": 3,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 8,
+          "row": 4,
+          "unityCell": {
+            "x": 8,
+            "y": 3,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 9,
+          "row": 4,
+          "unityCell": {
+            "x": 9,
+            "y": 3,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 0,
+          "row": 5,
+          "unityCell": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 1,
+          "row": 5,
+          "unityCell": {
+            "x": 1,
+            "y": 2,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 2,
+          "row": 5,
+          "unityCell": {
+            "x": 2,
+            "y": 2,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 3,
+          "row": 5,
+          "unityCell": {
+            "x": 3,
+            "y": 2,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 4,
+          "row": 5,
+          "unityCell": {
+            "x": 4,
+            "y": 2,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 5,
+          "row": 5,
+          "unityCell": {
+            "x": 5,
+            "y": 2,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 6,
+          "row": 5,
+          "unityCell": {
+            "x": 6,
+            "y": 2,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 7,
+          "row": 5,
+          "unityCell": {
+            "x": 7,
+            "y": 2,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 8,
+          "row": 5,
+          "unityCell": {
+            "x": 8,
+            "y": 2,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 9,
+          "row": 5,
+          "unityCell": {
+            "x": 9,
+            "y": 2,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 0,
+          "row": 6,
+          "unityCell": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 1,
+          "row": 6,
+          "unityCell": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 2,
+          "row": 6,
+          "unityCell": {
+            "x": 2,
+            "y": 1,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 3,
+          "row": 6,
+          "unityCell": {
+            "x": 3,
+            "y": 1,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 4,
+          "row": 6,
+          "unityCell": {
+            "x": 4,
+            "y": 1,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 5,
+          "row": 6,
+          "unityCell": {
+            "x": 5,
+            "y": 1,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 6,
+          "row": 6,
+          "unityCell": {
+            "x": 6,
+            "y": 1,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 7,
+          "row": 6,
+          "unityCell": {
+            "x": 7,
+            "y": 1,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 8,
+          "row": 6,
+          "unityCell": {
+            "x": 8,
+            "y": 1,
+            "z": 0
+          },
+          "tileId": "tile_floor_wood"
+        },
+        {
+          "col": 9,
+          "row": 6,
+          "unityCell": {
+            "x": 9,
+            "y": 1,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 0,
+          "row": 7,
+          "unityCell": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 1,
+          "row": 7,
+          "unityCell": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 2,
+          "row": 7,
+          "unityCell": {
+            "x": 2,
+            "y": 0,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 3,
+          "row": 7,
+          "unityCell": {
+            "x": 3,
+            "y": 0,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 4,
+          "row": 7,
+          "unityCell": {
+            "x": 4,
+            "y": 0,
+            "z": 0
+          },
+          "tileId": "tile_dirt_path"
+        },
+        {
+          "col": 5,
+          "row": 7,
+          "unityCell": {
+            "x": 5,
+            "y": 0,
+            "z": 0
+          },
+          "tileId": "tile_dirt_path"
+        },
+        {
+          "col": 6,
+          "row": 7,
+          "unityCell": {
+            "x": 6,
+            "y": 0,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 7,
+          "row": 7,
+          "unityCell": {
+            "x": 7,
+            "y": 0,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 8,
+          "row": 7,
+          "unityCell": {
+            "x": 8,
+            "y": 0,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        },
+        {
+          "col": 9,
+          "row": 7,
+          "unityCell": {
+            "x": 9,
+            "y": 0,
+            "z": 0
+          },
+          "tileId": "tile_wall_wood"
+        }
+      ]
+    },
+    {
+      "layerId": "ml_detail",
+      "name": "Chi tiết (Detail)",
+      "kind": "detail",
+      "order": 1,
+      "visible": true,
+      "cells": []
+    },
+    {
+      "layerId": "ml_object",
+      "name": "Vật thể (Y-Sort)",
+      "kind": "object",
+      "order": 2,
+      "visible": true,
+      "cells": []
+    },
+    {
+      "layerId": "ml_overlay",
+      "name": "Lớp phủ (Overlay)",
+      "kind": "overlay",
+      "order": 3,
+      "visible": true,
+      "cells": []
+    },
+    {
+      "layerId": "ml_collision",
+      "name": "Va chạm (Collision)",
+      "kind": "collision",
+      "order": 4,
+      "visible": true,
+      "cells": []
+    }
+  ],
+  "placements": [
+    {
+      "placementId": "plc_cabinet",
+      "assetId": "furniture_cabinet",
+      "revisionId": "rev_furniture_cabinet_approved",
+      "name": "Tủ gỗ xưởng mộc",
+      "layerId": "ml_object",
+      "gridX": 2,
+      "gridY": 1,
+      "offsetPx": {
+        "x": 0,
+        "y": 0
+      },
+      "footprint": {
+        "w": 2,
+        "h": 1
+      },
+      "facing": "down",
+      "ySortOffset": 0,
+      "blocksMovement": true,
+      "linkedDialogueId": null,
+      "linkedQuestId": null,
+      "unityCell": {
+        "x": 2,
+        "y": 6,
+        "z": 0
+      }
+    },
+    {
+      "placementId": "plc_table",
+      "assetId": "furniture_table",
+      "revisionId": "rev_furniture_table_approved",
+      "name": "Bàn thợ mộc",
+      "layerId": "ml_object",
+      "gridX": 6,
+      "gridY": 2,
+      "offsetPx": {
+        "x": 0,
+        "y": 0
+      },
+      "footprint": {
+        "w": 2,
+        "h": 1
+      },
+      "facing": "down",
+      "ySortOffset": 0,
+      "blocksMovement": true,
+      "linkedDialogueId": null,
+      "linkedQuestId": null,
+      "unityCell": {
+        "x": 6,
+        "y": 5,
+        "z": 0
+      }
+    },
+    {
+      "placementId": "plc_chair",
+      "assetId": "furniture_chair",
+      "revisionId": "rev_furniture_chair_approved",
+      "name": "Ghế gỗ",
+      "layerId": "ml_object",
+      "gridX": 6,
+      "gridY": 3,
+      "offsetPx": {
+        "x": 0,
+        "y": 0
+      },
+      "footprint": {
+        "w": 1,
+        "h": 1
+      },
+      "facing": "up",
+      "ySortOffset": 0,
+      "blocksMovement": true,
+      "linkedDialogueId": null,
+      "linkedQuestId": null,
+      "unityCell": {
+        "x": 6,
+        "y": 4,
+        "z": 0
+      }
+    },
+    {
+      "placementId": "plc_carpenter",
+      "assetId": "character_carpenter",
+      "revisionId": "rev_character_carpenter_approved",
+      "name": "Thợ mộc",
+      "layerId": "ml_object",
+      "gridX": 4,
+      "gridY": 3,
+      "offsetPx": {
+        "x": 0,
+        "y": 0
+      },
+      "footprint": {
+        "w": 1,
+        "h": 1
+      },
+      "facing": "down",
+      "ySortOffset": 0,
+      "blocksMovement": true,
+      "linkedDialogueId": "dialogue_carpenter_hammer",
+      "linkedQuestId": "quest_deliver_hammer",
+      "unityCell": {
+        "x": 4,
+        "y": 4,
+        "z": 0
+      }
+    }
+  ],
+  "collisionRects": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 32
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 256
+    },
+    {
+      "x": 288,
+      "y": 0,
+      "w": 32,
+      "h": 256
+    }
+  ],
+  "markers": [
+    {
+      "markerId": "mrk_spawn",
+      "kind": "spawn",
+      "name": "Điểm xuất hiện",
+      "gridX": 4,
+      "gridY": 6,
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "eventName": "player_spawn",
+      "targetSceneId": null,
+      "linkedDialogueId": null,
+      "linkedQuestId": null,
+      "unityCell": {
+        "x": 4,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "markerId": "mrk_door",
+      "kind": "door",
+      "name": "Cửa ra vào xưởng",
+      "gridX": 4,
+      "gridY": 7,
+      "widthTiles": 2,
+      "heightTiles": 1,
+      "eventName": "door_workshop_exit",
+      "targetSceneId": null,
+      "linkedDialogueId": null,
+      "linkedQuestId": null,
+      "unityCell": {
+        "x": 4,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "markerId": "mrk_trig_quest",
+      "kind": "trigger",
+      "name": "Vùng hỏi thăm Thợ mộc",
+      "gridX": 4,
+      "gridY": 4,
+      "widthTiles": 1,
+      "heightTiles": 1,
+      "eventName": "trigger_carpenter_talk",
+      "targetSceneId": null,
+      "linkedDialogueId": "dialogue_carpenter_hammer",
+      "linkedQuestId": "quest_deliver_hammer",
+      "unityCell": {
+        "x": 4,
+        "y": 3,
+        "z": 0
+      }
+    }
+  ]
+}

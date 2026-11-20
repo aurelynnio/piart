@@ -1,0 +1,257 @@
+{
+  "stableId": "atlas_proj_86361dfbe1ff",
+  "paddingPx": 2,
+  "extruded": true,
+  "width": 580,
+  "height": 68,
+  "pixelsPerUnit": 32,
+  "sprites": [
+    {
+      "stableId": "portrait_carpenter",
+      "studioRect": {
+        "x": 2,
+        "y": 2,
+        "w": 64,
+        "h": 64
+      },
+      "unityRect": {
+        "x": 2,
+        "y": 2,
+        "width": 64,
+        "height": 64
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "stableId": "character_carpenter",
+      "studioRect": {
+        "x": 68,
+        "y": 2,
+        "w": 32,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 68,
+        "y": 18,
+        "width": 32,
+        "height": 48
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.041667
+      }
+    },
+    {
+      "stableId": "outfit_apron",
+      "studioRect": {
+        "x": 102,
+        "y": 2,
+        "w": 32,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 102,
+        "y": 18,
+        "width": 32,
+        "height": 48
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.041667
+      }
+    },
+    {
+      "stableId": "furniture_cabinet",
+      "studioRect": {
+        "x": 136,
+        "y": 2,
+        "w": 64,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 136,
+        "y": 18,
+        "width": 64,
+        "height": 48
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.041667
+      }
+    },
+    {
+      "stableId": "furniture_table",
+      "studioRect": {
+        "x": 202,
+        "y": 2,
+        "w": 64,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 202,
+        "y": 18,
+        "width": 64,
+        "height": 48
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.041667
+      }
+    },
+    {
+      "stableId": "ui_dialogue_box",
+      "studioRect": {
+        "x": 268,
+        "y": 2,
+        "w": 48,
+        "h": 48
+      },
+      "unityRect": {
+        "x": 268,
+        "y": 18,
+        "width": 48,
+        "height": 48
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "stableId": "furniture_chair",
+      "studioRect": {
+        "x": 318,
+        "y": 2,
+        "w": 32,
+        "h": 32
+      },
+      "unityRect": {
+        "x": 318,
+        "y": 34,
+        "width": 32,
+        "height": 32
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.0625
+      }
+    },
+    {
+      "stableId": "item_hammer",
+      "studioRect": {
+        "x": 352,
+        "y": 2,
+        "w": 32,
+        "h": 32
+      },
+      "unityRect": {
+        "x": 352,
+        "y": 34,
+        "width": 32,
+        "height": 32
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "stableId": "vfx_sawdust",
+      "studioRect": {
+        "x": 386,
+        "y": 2,
+        "w": 24,
+        "h": 24
+      },
+      "unityRect": {
+        "x": 386,
+        "y": 42,
+        "width": 24,
+        "height": 24
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "stableId": "ui_btn_normal",
+      "studioRect": {
+        "x": 412,
+        "y": 2,
+        "w": 48,
+        "h": 20
+      },
+      "unityRect": {
+        "x": 412,
+        "y": 46,
+        "width": 48,
+        "height": 20
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "stableId": "ui_btn_pressed",
+      "studioRect": {
+        "x": 462,
+        "y": 2,
+        "w": 48,
+        "h": 20
+      },
+      "unityRect": {
+        "x": 462,
+        "y": 46,
+        "width": 48,
+        "height": 20
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "stableId": "ui_btn_disabled",
+      "studioRect": {
+        "x": 512,
+        "y": 2,
+        "w": 48,
+        "h": 20
+      },
+      "unityRect": {
+        "x": 512,
+        "y": 46,
+        "width": 48,
+        "height": 20
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "stableId": "icon_hammer",
+      "studioRect": {
+        "x": 562,
+        "y": 2,
+        "w": 16,
+        "h": 16
+      },
+      "unityRect": {
+        "x": 562,
+        "y": 50,
+        "width": 16,
+        "height": 16
+      },
+      "unityPivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ]
+}

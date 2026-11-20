@@ -1,0 +1,32 @@
+{
+  "stableId": "outfit_apron",
+  "revisionId": "rev_outfit_apron_approved",
+  "name": "Tạp dề thợ mộc",
+  "slug": "carpenter_apron",
+  "assetType": "outfit",
+  "pixelsPerUnit": 32,
+  "canvasPx": {
+    "w": 32,
+    "h": 48
+  },
+  "pivotPx": {
+    "x": 16,
+    "y": 46
+  },
+  "unityPivot": {
+    "x": 0.5,
+    "y": 0.041667
+  },
+  "footprintTiles": null,
+  "collisionBox": null,
+  "nineSlice": null,
+  "unityNineSliceBorder": null,
+  "attachmentPoints": [],
+  "textureSettings": {
+    "filterMode": "Point",
+    "compression": "Uncompressed",
+    "mipmapEnabled": false,
+    "alphaIsTransparency": true,
+    "spriteMeshType": "FullRect"
+  }
+}
